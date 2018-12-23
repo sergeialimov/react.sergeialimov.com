@@ -17,14 +17,12 @@ h1 {
 
 .job-position {
   margin-top: 0px;
-  font-size: 17px;
-  font-weight: 250;
-  color: var(--bright-color);
 }
 
 h2 {
   text-align: center;
-  color: var(--bright-color);
+  color: #F7EDE2;
+  font-size: 17px;
   font-weight: 200;
   margin-top: 50px;
   margin-bottom: 20px;
