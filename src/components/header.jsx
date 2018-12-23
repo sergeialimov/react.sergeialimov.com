@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-// import './../styles/header.css';
+import './../styles/header.css';
 
 class Header extends Component {
   render() {
     return (
-      <nav id="header">
+      <nav id="navbar">
         <ul>
           <li><a class="nav-link" href="#welcome-section">About</a></li>
           <li><a class="nav-link" href="#projects">Work</a></li>
