@@ -12,10 +12,8 @@ class App extends Component {
     return (
       <div id="app">
         <Header/>
-        <main id="main-doc">
-          <Welcome/>
-          <Projects/>
-        </main>
+        <Welcome/>
+        <Projects/>
       </div>
     )
   }
