@@ -17,6 +17,8 @@ h1 {
 
 .job-position {
   margin-top: 0px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -24,6 +26,4 @@ h2 {
   color: #F7EDE2;
   font-size: 17px;
   font-weight: 200;
-  margin-top: 50px;
-  margin-bottom: 20px;
 }
