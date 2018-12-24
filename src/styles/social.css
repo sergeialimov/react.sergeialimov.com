@@ -1,0 +1,54 @@
+#social header {
+  margin-top: 50px;
+  margin-bottom: 70px;
+} 
+
+#social {
+  padding-top: 30px;  
+  height: 500px;
+  background-color: #F7EDE2;
+  /* background-color: var(--bright-color); */
+}
+
+.coffee {
+  text-align: center;
+  color: #424B54;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  margin: 30 60 30 60;
+}
+
+.contact {
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border-color: #424B54;
+  border-style: solid;
+  margin: 30 30 30 30;
+}
+
+.contact:hover {
+  background-color: #424B54;
+  color: #F7EDE2;
+}
+
+#profile-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #424B54;
+}
+
+h3 {
+  text-align: center;
+  color: #424B54;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}

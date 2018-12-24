@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './header.jsx';
 import Welcome from './welcome.jsx';
 import Projects from './projects.jsx';
+import Social from './social.jsx';
 import './../styles/app.css';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <Header/>
         <Welcome/>
         <Projects/>
+        <Social/>
       </div>
     )
   }
