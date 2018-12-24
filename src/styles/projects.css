@@ -53,3 +53,18 @@
   color: #F7EDE2;
   text-decoration: none;
 }
+
+@media (max-width: 1000px) {
+  #projects {
+    grid-template-columns: 1fr ;
+    height: 1200px;
+  }
+
+  .left-column {
+    margin: 30 auto 30 auto;
+  }
+
+  .right-column {
+    margin: 30 auto 30 auto;
+  }
+}
