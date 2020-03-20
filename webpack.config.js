@@ -69,7 +69,7 @@ module.exports = (env, argv) => ({
     new webpack.DefinePlugin({
       DEVELOPMENT: JSON.stringify(argv.mode === 'development'),
     }),
-    new ManifestPlugin({ filename: './public/manifest.json' }),
+    // new ManifestPlugin({ filename: './public/manifest.json' }),
   ],
   // this part of config is needed only for development env
   devServer: {
