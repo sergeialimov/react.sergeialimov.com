@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ConfigWebpackPlugin = require('config-webpack');
+const ManifestPlugin = require('webpack-manifest-plugin');
 const config = require('config');
 const get = require('lodash/get');
 
