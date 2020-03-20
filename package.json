@@ -2,6 +2,9 @@
   "name": "react.sergeialimov.com",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.16.x"
+  },
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server --config webpack.config.js --mode development --hot",
