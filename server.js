@@ -11,7 +11,7 @@ app.use(express.static(__dirname));
 app.get('*', (req, res) => {
   console.log('------', __dirname)
   // console.log('======', dirTree("/"))
-  res.sendFile(path.resolve(__dirname, './build/index.html'));
+  res.sendFile(path.resolve(__dirname, './public/index.html'));
 });
 
 app.listen(port);
