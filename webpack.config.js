@@ -17,7 +17,8 @@ const publicHost = get(config, 'webpack.publicHost');
 module.exports = (env, argv) => ({
   entry: './public/index.js',
   output: {
-    path: path.join(__dirname),
+    path: __dirname,
+    // path: path.join(__dirname),
     // path: path.join(__dirname, outputFolder),
     filename: 'bundle.js',
   },
@@ -62,10 +63,10 @@ module.exports = (env, argv) => ({
   },
   plugins: [
     new CleanWebpackPlugin(),
-    // new HtmlWebpackPlugin({
-    //   template: './public/index.html',
-    //   favicon: './public/favicon.png'
-    // }),
+    new HtmlWebpackPlugin({
+      template: './public/index.html',
+      favicon: './public/favicon.png'
+    }),
     new ConfigWebpackPlugin(),
     new webpack.DefinePlugin({
       DEVELOPMENT: JSON.stringify(argv.mode === 'development'),
@@ -75,7 +76,7 @@ module.exports = (env, argv) => ({
   // this part of config is needed only for development env
   devServer: {
     compress: true,
-    contentBase: path.join(__dirname),
+    contentBase: __dirname,
     // contentBase: path.join(__dirname, outputFolder),
     publicPath: '/', // ensures correct client side routing with webpack-dev-server
     host,
