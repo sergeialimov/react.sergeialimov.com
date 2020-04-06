@@ -9,7 +9,8 @@
     "build": "webpack --config webpack.config.js",
     "dev": "webpack-dev-server --config webpack.config.js --mode development --hot",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "heroku-postbuild": "webpack -p"
+    "heroku-postbuild": "webpack -p",
+    "deploy": "git subtree push — prefix build heroku master"
   },
   "dependencies": {
     "@babel/core": "^7.8.7",
