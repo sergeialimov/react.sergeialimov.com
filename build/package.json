@@ -1,8 +1,8 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "personalblog",
-  "author": "Awesome Author",
+  "description": "personal website of Sergei Alimov",
+  "author": "Sergei Alimov",
   "private": true,
   "scripts": {
     "postinstall": "npm install express"
