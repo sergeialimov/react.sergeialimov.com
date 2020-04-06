@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ConfigWebpackPlugin = require('config-webpack');
-const ManifestPlugin = require('webpack-manifest-plugin');
+// const ManifestPlugin = require('webpack-manifest-plugin');
 const config = require('config');
 const get = require('lodash/get');
 
@@ -17,7 +17,9 @@ const publicHost = get(config, 'webpack.publicHost');
 module.exports = (env, argv) => ({
   entry: './public/index.js',
   output: {
-    path: path.join(__dirname, outputFolder),
+    path: __dirname,
+    // path: path.join(__dirname),
+    // path: path.join(__dirname, outputFolder),
     filename: 'bundle.js',
   },
   resolve: {
@@ -74,7 +76,8 @@ module.exports = (env, argv) => ({
   // this part of config is needed only for development env
   devServer: {
     compress: true,
-    contentBase: path.join(__dirname, outputFolder),
+    contentBase: __dirname,
+    // contentBase: path.join(__dirname, outputFolder),
     publicPath: '/', // ensures correct client side routing with webpack-dev-server
     host,
     port,
