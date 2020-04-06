@@ -17,9 +17,7 @@ const publicHost = get(config, 'webpack.publicHost');
 module.exports = (env, argv) => ({
   entry: './public/index.js',
   output: {
-    path: __dirname,
-    // path: path.join(__dirname),
-    // path: path.join(__dirname, outputFolder),
+    path: path.join(__dirname, outputFolder),
     filename: 'bundle.js',
   },
   resolve: {
@@ -76,8 +74,7 @@ module.exports = (env, argv) => ({
   // this part of config is needed only for development env
   devServer: {
     compress: true,
-    contentBase: __dirname,
-    // contentBase: path.join(__dirname, outputFolder),
+    contentBase: path.join(__dirname, outputFolder),
     publicPath: '/', // ensures correct client side routing with webpack-dev-server
     host,
     port,
