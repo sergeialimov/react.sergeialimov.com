@@ -17,6 +17,7 @@ const publicHost = get(config, 'webpack.publicHost');
 module.exports = (env, argv) => ({
   entry: './public/index.js',
   output: {
+    publicPath: '/',
     path: path.join(__dirname, outputFolder),
     filename: 'bundle.js',
   },
