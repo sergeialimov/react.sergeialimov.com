@@ -7,10 +7,9 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server --config webpack.config.js --mode development --hot",
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "heroku-postbuild": "webpack -p",
-    "deploy": "git subtree push --prefix build heroku master"
+    "dev": "webpack-dev-server --mode development --open",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p"
   },
   "dependencies": {
     "@babel/core": "^7.8.7",
@@ -22,6 +21,7 @@
     "config": "^3.3.0",
     "config-webpack": "^1.0.4",
     "directory-tree": "^2.2.4",
+    "express": "^4.17.1",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^3.2.0",
     "lodash": "^4.17.15",
