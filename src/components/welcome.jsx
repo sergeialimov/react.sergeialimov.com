@@ -6,7 +6,8 @@ class Welcome extends Component {
     return (
       <section id="welcome-section">
         <h1>Hey I'am Sergei Alimov</h1>
-        <h2 class="job-position"> Remote Javascript developer</h2>
+        <h2 class="job-position">Remote Javascript developer</h2>
+        <h2 class="job-position">[ test ]</h2>
       </section>  
     )
   }
