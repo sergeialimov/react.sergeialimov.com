@@ -3,7 +3,7 @@ import tribute from '../../img/tribute.jpg';
 import doc from '../../img/doc.jpg';
 import survey from '../../img/survey.jpg';
 import land from '../../img/land.jpg';
-import './../../styles/projects.css';
+import '@src/styles/projects.css';
 
 class Projects extends Component {
   render() {

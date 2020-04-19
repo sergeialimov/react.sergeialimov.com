@@ -4,7 +4,7 @@ import Welcome from './welcome.jsx';
 import Projects from './projects/projects.jsx';
 import Social from './social.jsx';
 import Footer from './footer.jsx';
-import './../styles/app.css';
+import '@src/styles/app.css';
 
 class App extends Component {
   componentDidMount() {
