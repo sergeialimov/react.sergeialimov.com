@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server --mode development",
+    "dev": "webpack-dev-server --mode development --open --watch",
     "start": "node server.js",
     "heroku-postbuild": "webpack -p"
   },
