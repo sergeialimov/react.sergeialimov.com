@@ -11,7 +11,7 @@ class Projects extends Component {
       <section id="projects">
         <h2 id="projects-header">These are some of my projects..</h2>
         <div id="project-tiles">
-          <div class="project-tile left-column">
+          <div className="classNameproject-tile left-column">
             <a href="http://sergeialimov.com/projects/tribute-page.html"
                target="_blank"
                rel="noopener noreferrer">
@@ -19,28 +19,28 @@ class Projects extends Component {
               <p className="project-name">Tribute page</p>
             </a>
           </div>
-          <div class="project-tile right-column">
+          <div className="project-tile right-column">
             <a href="http://sergeialimov.com/projects/survey-form.html"
                target="_blank"
                rel="noopener noreferrer">
-              <img class="project-pic" src={survey} alt="Survey Form"/>
-              <p class="project-name">Survey Form</p>
+              <img className="project-pic" src={survey} alt="Survey Form"/>
+              <p className="project-name">Survey Form</p>
             </a>
           </div>
-          <div class="project-tile left-column">
+          <div className="project-tile left-column">
             <a href="http://sergeialimov.com/projects/tech-doc.html"
                target="_blank"
                rel="noopener noreferrer">
-              <img class="project-pic" src={doc} alt="Technical documentation"/>
-              <p class="project-name">Technical documentation</p>
+              <img className="project-pic" src={doc} alt="Technical documentation"/>
+              <p className="project-name">Technical documentation</p>
             </a>
           </div>
-          <div class="project-tile right-column">
+          <div className="project-tile right-column">
             <a href="http://sergeialimov.com/projects/product-landing.html"
                target="_blank"
                rel="noopener noreferrer">
-              <img class="project-pic" src={land} alt="Product landing page"/>
-              <p class="project-name">Product landing page</p>
+              <img className="project-pic" src={land} alt="Product landing page"/>
+              <p className="project-name">Product landing page</p>
             </a>
           </div>
         </div>

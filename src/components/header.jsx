@@ -6,9 +6,9 @@ class Header extends Component {
     return (
       <nav id="navbar">
         <ul>
-          <li><a class="nav-link" href="#welcome-section">About</a></li>
-          <li><a class="nav-link" href="#projects">Work</a></li>
-          <li><a class="nav-link" href="#social">Contact</a></li>
+          <li><a className="nav-link" href="#welcome-section">About</a></li>
+          <li><a className="nav-link" href="#projects">Work</a></li>
+          <li><a className="nav-link" href="#social">Contact</a></li>
         </ul>
       </nav>
     )

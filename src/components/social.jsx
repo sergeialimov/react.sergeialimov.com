@@ -7,16 +7,16 @@ class Social extends Component {
       <section id="social">
         <header>
           <h3>Let's work together</h3>
-          <p class="coffee">How do you take your coffee?</p>
+          <p className="coffee">How do you take your coffee?</p>
         </header>
-        <div class="contacts">
+        <div className="contacts">
           <a 
             id="profile-link" 
             href="https://github.com/sergeialimov" 
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="contact">
+            <div className="contact">
                 Github
             </div>
           </a>
@@ -26,7 +26,7 @@ class Social extends Component {
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <div class="contact">
+            <div className="contact">
               LinkedIn
             </div>
           </a>
@@ -36,7 +36,7 @@ class Social extends Component {
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <div class="contact">
+            <div className="contact">
               Facebook
             </div>
           </a>
@@ -46,12 +46,12 @@ class Social extends Component {
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <div class="contact">
+            <div className="contact">
               Email
             </div>
           </a>
           <a id="profile-link" href="tel:+79313392819" target="_blank" rel="noopener noreferrer">
-            <div class="contact">
+            <div className="contact">
               Call me
             </div>
           </a>
