@@ -79,9 +79,9 @@ module.exports = (env, argv) => ({
     publicPath: '/', // ensures correct client side routing with webpack-dev-server
     host,
     port,
-    public: publicHost, // remote machine host that is accessible from internet
+    public: `${host}:${port}`,
     allowedHosts: [
-      publicHost,
+      host,
     ],
     disableHostCheck: true, // ensures that webpack-dev-server works from remote machine
     historyApiFallback: true, // ensures correct client side routing with webpack-dev-server
