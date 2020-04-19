@@ -4,8 +4,7 @@ import '@src/styles/footer.css';
 class Footer extends Component {
   render() {
     return (
-      <footer>
-      </footer> 
+      <footer />
     )
   }
 }
