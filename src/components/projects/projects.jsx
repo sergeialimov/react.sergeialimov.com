@@ -11,7 +11,7 @@ class Projects extends Component {
       <section id="projects">
         <h2 id="projects-header">These are some of my projects..</h2>
         <div id="project-tiles">
-          <div className="classNameproject-tile left-column">
+          <div className="project-tile left-column">
             <a href="http://sergeialimov.com/projects/tribute-page.html"
                target="_blank"
                rel="noopener noreferrer">
