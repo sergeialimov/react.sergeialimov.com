@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 import Welcome from '@src/scenes/Welcome.jsx';
 import Projects from '@src/scenes/projects/Projects.jsx';
-import Contacts from '@src/scenes/Contacts.jsx';
+import Contacts from '@src/scenes/Contacts';
 import '@src/styles/app.css';
 
 class App extends Component {
