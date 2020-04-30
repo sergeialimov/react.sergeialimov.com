@@ -2,10 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from "react-redux";
 import App from './core/app.jsx';
-import store from "./store";
 
 ReactDOM.render(
-  <Provider store={store}>
+  <Provider>
     <App />
   </Provider>,
   document.getElementById('root')
