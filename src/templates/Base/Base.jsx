@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Header from '../components/Header.jsx';
+import Header from '../components/Header';
 // import './base.styl';
 
 
