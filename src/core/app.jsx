@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
-import Welcome from '@src/scenes/Welcome.jsx';
+import About from '@src/scenes/About';
 import Projects from '@src/scenes/Projects';
 import Contacts from '@src/scenes/Contacts';
 import '@src/styles/app.css';
@@ -36,7 +36,7 @@ class App extends Component {
             <Projects />
           </Route>
           <Route path="/">
-            <Welcome />
+            <About />
           </Route>
         </Switch>
     </Router>

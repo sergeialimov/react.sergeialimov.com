@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '@src/styles/welcome.css';
 import BaseTemplate from '@src/templates/Base';
 
-const Welcome = (props) => {
+const About = (props) => {
   const content = (
     <section id="welcome-section">
       <h1>Hey I'am Sergei Alimov</h1>
@@ -17,4 +17,4 @@ const Welcome = (props) => {
   );
 }
 
-export default Welcome;
+export default About;
