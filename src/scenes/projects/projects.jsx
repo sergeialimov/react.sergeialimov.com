@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 import BaseTemplate from '@src/templates/Base';
 
-import tribute from '../../img/tribute.jpg';
-import doc from '../../img/doc.jpg';
-import survey from '../../img/survey.jpg';
-import land from '../../img/land.jpg';
+import tribute from './components/Tribute-page/tribute.jpg';
+import doc from './components/Tech-doc/doc.jpg';
+import survey from './components/Survey-form/survey.jpg';
+import land from './components/Product-landing/land.jpg';
 import './projects.css';
 
 
