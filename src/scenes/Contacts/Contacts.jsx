@@ -1,7 +1,7 @@
 import React from 'react';
 
 import BaseTemplate from '@src/templates/Base';
-import '@src/styles/contacts.css';
+import './contacts.css';
 
 const Contacts = (props) => {
   const content = (

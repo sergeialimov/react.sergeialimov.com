@@ -6,7 +6,7 @@ import tribute from '../../img/tribute.jpg';
 import doc from '../../img/doc.jpg';
 import survey from '../../img/survey.jpg';
 import land from '../../img/land.jpg';
-import '@src/styles/projects.css';
+import './projects.css';
 
 
 const Projects = (props) => {

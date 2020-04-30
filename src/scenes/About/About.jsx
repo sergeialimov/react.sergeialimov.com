@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '@src/styles/welcome.css';
+import './about.css';
 import BaseTemplate from '@src/templates/Base';
 
 const About = (props) => {
