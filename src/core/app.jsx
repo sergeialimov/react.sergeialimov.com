@@ -16,21 +16,6 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Welcome</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/social">Social</Link>
-            </li>
-          </ul>
-        </nav>
-
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
@@ -44,7 +29,6 @@ class App extends Component {
             <Welcome />
           </Route>
         </Switch>
-      </div>
     </Router>
     )
   }
