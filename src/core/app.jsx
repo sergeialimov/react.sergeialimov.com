@@ -9,32 +9,13 @@ import Social from '@src/scenes/Social.jsx';
 import Footer from '@src/templates/Footer.jsx';
 import '@src/styles/app.css';
 
-// class App extends Component {
-//   componentDidMount() {
-//     document.body.style.margin = '0';
-//   }
-//   render() {
-//     return (
-//       <div id="app">
-//         <Header/>
-//         <Welcome/>
-//         <Projects/>
-//         <Social/>
-//         <Footer/>
-//       </div>
-//     )
-//   }
-// }
-
-// export default App;
-
-
-
-
-
-export default function App() {
-  return (
-    <Router>
+class App extends Component {
+  componentDidMount() {
+    document.body.style.margin = '0';
+  }
+  render() {
+    return (
+      <Router>
       <div>
         <nav>
           <ul>
@@ -65,5 +46,8 @@ export default function App() {
         </Switch>
       </div>
     </Router>
-  );
+    )
+  }
 }
+
+export default App;
