@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+
 import Header from './header.jsx';
 import Welcome from './welcome.jsx';
 import Projects from './projects/projects.jsx';
