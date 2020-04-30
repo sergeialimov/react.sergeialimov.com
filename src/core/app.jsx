@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 import Welcome from '@src/scenes/Welcome.jsx';
 import Projects from '@src/scenes/projects/Projects.jsx';
-import Social from '@src/scenes/Social.jsx';
+import Contacts from '@src/scenes/Contacts.jsx';
 import '@src/styles/app.css';
 
 class App extends Component {
@@ -20,8 +20,8 @@ class App extends Component {
           <Route path="/projects">
             <Projects />
           </Route>
-          <Route path="/social">
-            <Social />
+          <Route path="/contacts">
+            <Contacts />
           </Route>
           <Route path="/">
             <Welcome />

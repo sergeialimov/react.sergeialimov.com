@@ -3,7 +3,7 @@ import React from 'react';
 import BaseTemplate from '@src/templates/Base';
 import '@src/styles/social.css';
 
-const Social = (props) => {
+const Contacts = (props) => {
   const content = (
     <section id="social">
       <header>
@@ -34,7 +34,7 @@ const Social = (props) => {
         <a
           id="profile-link"
           href="https://www.facebook.com/alimov.s"
-          target="_blank"
+          target="_blank"qq
           rel="noopener noreferrer"
         >
           <div className="contact">
@@ -67,4 +67,4 @@ const Social = (props) => {
   );
 }
 
-export default Social;
+export default Contacts;

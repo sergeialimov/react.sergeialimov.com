@@ -29,7 +29,7 @@ class Header extends Component {
             <li>
               <NavLink
                 className="nav-link"
-                to="/social"
+                to="/contacts"
               >
                 Contacts
               </NavLink>
