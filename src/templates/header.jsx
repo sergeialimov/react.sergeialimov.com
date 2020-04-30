@@ -12,14 +12,6 @@ class Header extends Component {
           <li><a className="nav-link" href="#projects">Work</a></li>
           <li><a className="nav-link" href="#social">Contact</a></li>
         </ul>
-        <NavLink
-          exact
-          activeStyle={{ display: 'none' }}
-          to={data.path}
-          {...props}
-        >
-      {content}
-    </NavLink>
   );
       </nav>
     )
