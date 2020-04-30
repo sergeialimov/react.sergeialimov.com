@@ -34,7 +34,7 @@ const Contacts = (props) => {
         <a
           id="profile-link"
           href="https://www.facebook.com/alimov.s"
-          target="_blank"qq
+          target="_blank"
           rel="noopener noreferrer"
         >
           <div className="contact">
