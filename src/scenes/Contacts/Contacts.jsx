@@ -14,12 +14,12 @@ const Contacts = (props) => {
         </header>
         <div className="contacts">
           <Contact
-            link="https://github.com/sergeialimov"
-            content="Github"
-          />
-          <Contact
             link="https://www.linkedin.com/in/sergei-alimov/"
             content="LinkedIn"
+          />
+          <Contact
+            link="https://github.com/sergeialimov"
+            content="Github"
           />
           <Contact
             link="https://t.me/sergeialimov"
