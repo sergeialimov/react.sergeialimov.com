@@ -8,21 +8,17 @@
   background-color: #93A8AC;
 }
 
-h1 {
-  font-weight: 400;
+.welcome__header-h1 {
+  font-weight: 300;
   font-size: 30px;
-  margin-bottom: 5px;
-  color: #1f1f1f;
-  text-align: center;
+  margin-bottom: 20px;
+  color: #424B54;
 }
 
-.job-position {
+.welcome__header-h2 {
   margin-top: 0px;
   margin-top: 5px;
   margin-bottom: 20px;
-}
-
-h2 {
   text-align: center;
   color: #F7EDE2;
   font-size: 17px;

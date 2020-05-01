@@ -12,7 +12,7 @@ import './projects.css';
 const Projects = (props) => {
   const content = (
     <section id="projects">
-      <h2 id="projects-header">These are some of my projects..</h2>
+      <h1 className="projects__header-h1">These are some of my projects..</h1>
       <div id="project-tiles">
         <div className="project-tile left-column">
           <a href="http://sergeialimov.com/projects/tribute-page.html"
