@@ -18,7 +18,7 @@ const Contacts = (props) => {
           rel="noopener noreferrer"
         >
           <div className="contact">
-              Github
+            Github
           </div>
         </a>
         <a
