@@ -8,26 +8,28 @@ import './contacts.css';
 const Contacts = (props) => {
   const content = (
     <section id="social">
-      <header>
-        <h3>Let's work together</h3>
-      </header>
-      <div className="contacts">
-        <Contact
-          link="https://github.com/sergeialimov"
-          content="Github"
-        />
-        <Contact
-          link="https://www.linkedin.com/in/sergei-alimov/"
-          content="LinkedIn"
-        />
-        <Contact
-          link="https://t.me/sergeialimov"
-          content="Telegram"
-        />
-        <Contact
-          link="mailto:8912652@gmail.com"
-          content="Email"
-        />
+      <div className="content">
+        <header>
+          <h1>Let's work together</h1>
+        </header>
+        <div className="contacts">
+          <Contact
+            link="https://github.com/sergeialimov"
+            content="Github"
+          />
+          <Contact
+            link="https://www.linkedin.com/in/sergei-alimov/"
+            content="LinkedIn"
+          />
+          <Contact
+            link="https://t.me/sergeialimov"
+            content="Telegram"
+          />
+          <Contact
+            link="mailto:8912652@gmail.com"
+            content="Email"
+          />
+        </div>
       </div>
     </section>
   );
