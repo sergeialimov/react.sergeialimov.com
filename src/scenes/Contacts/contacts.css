@@ -1,24 +1,29 @@
 #social header {
   margin-top: 50px;
   margin-bottom: 70px;
+  padding-top: 30px;
 } 
 
 #social {
-  padding-top: 30px;  
-  height: 500px;
-  background-color: #F7EDE2;
-  /* background-color: var(--bright-color); */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dddfd4;
 }
 
-.coffee {
-  text-align: center;
-  color: #424B54;
+.content {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 10%;
 }
 
 .contacts {
   display: flex;
   justify-content: space-around;
-  margin: 30 60 30 60;
+  margin: 30px auto 30px auto;
+  max-width: 80%;
 }
 
 .contact {
@@ -30,12 +35,12 @@
   border-radius: 100px;
   border-color: #424B54;
   border-style: solid;
-  margin: 30 30 30 30;
+  margin: 30px 30px 30px 30px;
 }
 
 .contact:hover {
   background-color: #424B54;
-  color: #F7EDE2;
+  color: #dddfd4;
 }
 
 #profile-link {
@@ -44,7 +49,7 @@
   color: #424B54;
 }
 
-h3 {
+h1 {
   text-align: center;
   color: #424B54;
   font-size: 30px;
