@@ -23,6 +23,7 @@ nav li {
 }
 
 .nav-link {
-  color: #F7EDE2;
+  color: #dddfd4;
   text-decoration: none;
+  font-weight: 300;
 }
