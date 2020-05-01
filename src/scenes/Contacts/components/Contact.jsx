@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './contact.css';
+
 const Contact = (props) => {
   const { content, link } = props;
 

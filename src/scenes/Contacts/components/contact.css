@@ -1,0 +1,22 @@
+.contact {
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border-color: #424B54;
+  border-style: solid;
+  margin: 30px 30px 30px 30px;
+}
+
+.contact:hover {
+  background-color: #424B54;
+  color: #dddfd4;
+}
+
+#profile-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #424B54;
+}
