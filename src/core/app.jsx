@@ -6,6 +6,8 @@ import About from '@src/scenes/About';
 import Contacts from '@src/scenes/Contacts';
 import Projects from '@src/scenes/Projects';
 import TributePage from '@src/scenes/Projects/components/Ui-projects/Tribute-page';
+import TechDoc from '@src/scenes/Projects/components/Ui-projects/Tech-doc';
+
 import './app.css';
 
 class App extends Component {
@@ -29,7 +31,7 @@ class App extends Component {
               <h2>survey-form</h2>;
             </Route>
             <Route path="/projects/tech-doc">
-              <h2>tech-doc</h2>;
+              <TechDoc />
             </Route>
             <Route path="/projects/tribute-page">
               <TributePage />
