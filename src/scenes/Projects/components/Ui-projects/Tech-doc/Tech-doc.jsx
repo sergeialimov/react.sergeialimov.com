@@ -6,22 +6,22 @@ const TechDoc = () => {
     <main id="main-doc">
       <nav id="navbar">
         <header>
-          <h1>JS Documentation</h1>
+          <h1 className="tech-doc__header__h1">JS Documentation</h1>
         </header>
         <ul>
-          <li><a className="nav-link" href="#Introduction">Introduction</a></li>
-          <li><a className="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
-          <li><a className="nav-link" href="#Javascript_and_Java">JavaScript and Java</a></li>
-          <li><a className="nav-link" href="#Hello_world">Hello world</a></li>
-          <li><a className="nav-link" href="#Variables">Variables</a></li>
-          <li><a className="nav-link" href="#Declaring_variables">Declaring variables</a></li>
-          <li><a className="nav-link" href="#Variable_scope">Variable scope</a></li>
+          <li><a className="tech-doc__nav-link" href="#Introduction">Introduction</a></li>
+          <li><a className="tech-doc__nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+          <li><a className="tech-doc__nav-link" href="#Javascript_and_Java">JavaScript and Java</a></li>
+          <li><a className="tech-doc__nav-link" href="#Hello_world">Hello world</a></li>
+          <li><a className="tech-doc__nav-link" href="#Variables">Variables</a></li>
+          <li><a className="tech-doc__nav-link" href="#Declaring_variables">Declaring variables</a></li>
+          <li><a className="tech-doc__nav-link" href="#Variable_scope">Variable scope</a></li>
         </ul>
       </nav>
-      <div className="content">
+      <div className="tech-doc__content">
         <section className="main-section" id="Introduction">
           <header>
-            <h2>Introduction</h2>
+            <h2 className="tech-doc__header__h2">Introduction</h2>
           </header>
           <div className="text">
             <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
@@ -34,7 +34,7 @@ const TechDoc = () => {
         </section>
         <section className="main-section" id="What_you_should_already_know">
           <header>
-            <h2>What you should already know</h2>
+            <h2 className="tech-doc__header__h2">What you should already know</h2>
           </header>
           <div className="text">
             <p>This guide assumes you have the following basic background:</p>
@@ -47,7 +47,7 @@ const TechDoc = () => {
         </section>
         <section className="main-section" id="Javascript_and_Java">
           <header>
-            <h2>JavaScript and Java</h2>
+            <h2 className="tech-doc__header__h2">JavaScript and Java</h2>
           </header>
           <div className="text">
             <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
@@ -57,7 +57,7 @@ const TechDoc = () => {
         </section>
         <section className="main-section" id="Hello_world">
           <header>
-            <h2>Hello world</h2>
+            <h2 className="tech-doc__header__h2">Hello world</h2>
           </header>
           <div className="text">
             <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
@@ -67,7 +67,7 @@ const TechDoc = () => {
         </section>
         <section className="main-section" id="Variables">
           <header>
-            <h2>Variables</h2>
+            <h2 className="tech-doc__header__h2">Variables</h2>
           </header>
           <div className="text">
             <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
@@ -77,7 +77,7 @@ const TechDoc = () => {
         </section>
         <section className="main-section" id="Declaring_variables">
           <header>
-            <h2>Declaring variables</h2>
+            <h2 className="tech-doc__header__h2">Declaring variables</h2>
           </header>
           <div className="text">
             <p>You can declare a variable in three ways:</p>
@@ -94,7 +94,7 @@ const TechDoc = () => {
         </section>
         <section className="main-section" id="Variable_scope">
           <header>
-            <h2>Variable scope</h2>
+            <h2 className="tech-doc__header__h2">Variable scope</h2>
           </header>
           <div className="text">
             <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
