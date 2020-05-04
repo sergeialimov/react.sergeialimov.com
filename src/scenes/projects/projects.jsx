@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import BaseTemplate from '@src/templates/Base';
 import Project from './components';
 
-import tribute from './components/Tribute-page/tribute.jpg';
-import doc from './components/Tech-doc/doc.jpg';
-import survey from './components/Survey-form/survey.jpg';
-import land from './components/Product-landing/land.jpg';
+import tribute from './components/ui-projects/Tribute-page/tribute.jpg';
+import doc from './components/ui-projects/Tech-doc/doc.jpg';
+import survey from './components/ui-projects/Survey-form/survey.jpg';
+import land from './components/ui-projects/Product-landing/land.jpg';
 
 import './projects.css';
 
@@ -24,7 +24,7 @@ const Projects = (props) => {
           Responsive Web Design Certification
         </a>
 
-        <h2 className="projects__header-h2">Some of my UI projects..</h2>
+        <h2 className="projects__header-h2">UI projects</h2>
         <div id="project-tiles">
           <Project
             content="Tribute page"
