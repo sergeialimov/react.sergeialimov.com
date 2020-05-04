@@ -1,17 +1,46 @@
 #projects {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
   background-color: #424B54;
-  padding-top: 10px;
+}
+
+.projects__content {
+  padding-top: 70px;
 }
 
 .projects__header-h1 {
   font-weight: 300;
-  text-align: center;
   font-size: 30px;
-  margin-bottom: 20px;
-  color: white;
+  margin-bottom: 50px;
+  color: #dddfd4;
+}
+
+.projects__header-h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  color: #dddfd4;
+}
+
+.projects__text {
+  color: #dddfd4;
+  font-weight: 100;
+}
+
+.projects__link {
+  margin-top: 20px;
+  color: #dddfd4;
+  font-weight: 300;
+  text-decoration-color: #dddfd4;
+}
+
+.projects__link:hover {
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
 }
 
 #project-tiles {
@@ -20,6 +49,7 @@
   grid-row-gap: 0px;
   grid-column-gap: 30px;
   align-items: center;
+  margin-top: 10px;
 }
 
 .left-column {
