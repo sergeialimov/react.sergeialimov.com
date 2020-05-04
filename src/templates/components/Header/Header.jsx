@@ -23,7 +23,7 @@ class Header extends Component {
                 className="nav-link"
                 to="/projects"
               >
-                Projects
+                Study projects
               </NavLink>
             </li>
             <li>
