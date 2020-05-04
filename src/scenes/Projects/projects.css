@@ -20,7 +20,7 @@
   font-weight: 300;
   font-size: 20px;
   margin-top: 60px;
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
   color: #dddfd4;
 }
 
@@ -30,13 +30,26 @@
 }
 
 .projects__link {
-  margin-top: 20px;
   color: #dddfd4;
   font-weight: 300;
   text-decoration-color: #dddfd4;
 }
 
 .projects__link:hover {
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+
+.projects__github-link {
+  margin-top: 20px;
+  color: #dddfd4;
+  font-weight: 300;
+  text-decoration-color: #dddfd4;
+}
+
+.projects__github-link:hover {
   background: linear-gradient(90deg,#ff8a00,#e52e71);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

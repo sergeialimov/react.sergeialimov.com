@@ -51,6 +51,8 @@ const Projects = (props) => {
             src={land}
           />
         </div>
+        <h2 className="projects__header-h2">The code can be found on my Github account:</h2>
+        <a className="projects__github-link" href="https://github.com/sergeialimov" target="_blank">https://github.com/sergeialimov</a>
       </div>
     </section>
   );
