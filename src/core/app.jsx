@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 import About from '@src/scenes/About';
-import Projects from '@src/scenes/Projects';
 import Contacts from '@src/scenes/Contacts';
+import Projects from '@src/scenes/Projects';
+import TributePage from '@src/scenes/Projects/components/Ui-projects/Tribute-page';
 import './app.css';
 
 class App extends Component {
@@ -31,7 +32,7 @@ class App extends Component {
               <h2>tech-doc</h2>;
             </Route>
             <Route path="/projects/tribute-page">
-              <h2>tribute-page</h2>;
+              <TributePage />
             </Route>
             <Route path="/projects">
               <Projects />

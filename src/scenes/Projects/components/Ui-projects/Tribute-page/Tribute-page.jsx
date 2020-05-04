@@ -1,18 +1,16 @@
-<!doctype html>
-<html>
-  <head>
-    <link rel="stylesheet" href="./../styles/tribute-page.css">
-    <link rel="icon" href="http://sergeialimov.com/favicon.png?v=2"/>
-  </head>
-  <body>
+import React from 'react';
 
+import './tribute-page.css';
+
+const TributePage = () => {
+  return (
     <div id="main">
       <div id="title">
         <h1>Dr. Norman Borlaug</h1>
         <p>The man who saved a billion lives</p>
       </div>
       <div id="img-div">
-        <img id="image" src='https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg'>
+        <img id="image" src='https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg' />
         <p id="img-caption">Dr. Norman Borlaug, second from left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</p>
       </div>
       <div id="tribute-info">
@@ -40,19 +38,28 @@
         </ul>
       </div>
       <div id="quote">
-        <p><i>"Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."
+        <p>
+          <i>"Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."
         </i></p>
         <p><i>-- Indian Prime Minister Manmohan Singh</i></p>
       </div>
       <div id="additional-div">
-        <p id="additional"><strong>If you have time, you should read more about this incredible human being on his
-          <a
-          id="tribute-link"
-          href="https://en.wikipedia.org/wiki/Norman_Borlaug"
-          target="_blank"
-          alt=""
-          >Wikipedia entry</a>.</strong></p>
+        <p id="additional">
+          <strong>If you have time, you should read more about this incredible human being on his 
+            <a
+              id="tribute-link"
+              href="https://en.wikipedia.org/wiki/Norman_Borlaug"
+              target="_blank"
+              alt=""
+            >
+              Wikipedia entry
+            </a>
+            .
+          </strong>
+        </p>
       </div>
     </div>
-  </body>
-</html>
+  );
+};
+
+export default TributePage;
