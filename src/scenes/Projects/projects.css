@@ -62,9 +62,10 @@
 }
 
 .project-name {
-  margin-top: 0px;
+  margin-top: 3px;
   text-align: center;
   padding-top: 6px;
+  font-weight: 200;
 }
 
 @media (max-width: 1000px) {
