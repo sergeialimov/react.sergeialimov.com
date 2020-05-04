@@ -24,7 +24,7 @@ const Projects = (props) => {
           Responsive Web Design Certification
         </a>
 
-        <h2 className="projects__header-h2">Some of my projects..</h2>
+        <h2 className="projects__header-h2">Some of my UI projects..</h2>
         <div id="project-tiles">
           <Project
             content="Tribute page"
