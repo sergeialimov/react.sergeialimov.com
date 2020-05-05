@@ -1,0 +1,36 @@
+/* body {
+  margin: 0;
+} */
+
+.tech-doc__main {
+  display: grid;
+  grid-template-columns: 300px auto;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+
+
+ul {
+  list-style: disc inside none;
+}
+
+li {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+p {
+  line-height: 25px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+code {
+  display: block;
+  white-space: pre-wrap;
+  margin-left: 20px;
+  line-height: 25px;
+}
+
+
