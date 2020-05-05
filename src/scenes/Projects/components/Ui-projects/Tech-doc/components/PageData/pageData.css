@@ -1,30 +1,29 @@
-.tech-doc__content {
-  margin: 10 20 20 20;
+.tech-doc__page-data__text {
+  margin: 10px 20px 20px 20px;
 }
 
-.tech-doc__content_header__h2 {
+.tech-doc__page-data__h2 {
   font-weight: 400;
   margin-left: 5px;
 }
 
-.tech-doc__content_code {
+.tech-doc__page-data__code {
   display: block;
   white-space: pre-wrap;
   margin-left: 20px;
   line-height: 25px;
 }
 
-
-/*ul {
+.tech-doc__page-data__list {
   list-style: disc inside none;
 }
 
-li {
+.tech-doc__page-data__list-item {
   line-height: 25px;
   font-size: 15px;
 }
 
-p {
+.tech-doc__page-data__paragraph {
   line-height: 25px;
   margin-left: 20px;
   font-size: 15px;
