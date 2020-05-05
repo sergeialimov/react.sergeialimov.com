@@ -1,0 +1,32 @@
+.tech-doc__navbar {
+  width: 100%;
+  border-style: solid;
+  border-color: gray;
+  border-width: 0 3px 0 0;
+}
+
+.tech-doc__nav-list {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  align-items: center;
+}
+
+.tech-doc__nav-link {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  padding-left: 25px;
+}
+
+.tech-doc__header__h1 {
+  margin-left: 40px;
+}
+
+.tech-doc__nav-link {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  margin: 10px 15px 10px 15px;
+}

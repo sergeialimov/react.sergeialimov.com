@@ -2,49 +2,14 @@ body {
   margin: 0;
 }
 
-#main-doc {
+.tech-doc__main {
   display: grid;
   grid-template-columns: 300px auto;
   font-family: sans-serif;
   font-weight: 300;
 }
 
-#navbar {
-  width: 100%;
-  border-style: solid;
-  border-color: gray;
-  border-width: 0 3px 0 0;
-}
 
-nav ul {
-  list-style: none;
-  padding-left: 0;
-  display: grid;
-  align-items: center;
-}
-
-nav li {
-  border-width: 1px 0 0 0;
-  border-style: solid;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 25px;
-}
-
-nav header {
-  margin-left: 40px;
-}
-
-.tech-doc__nav-link {
-  text-decoration: none;
-  font-size: 17px;
-  color: black;
-  margin: 10 15 10 15;
-}
-
-.tech-doc__content {
-  margin: 10 20 20 20;
-}
 
 .tech-doc__header__h1 {
   font-weight: 500;
