@@ -1,4 +1,4 @@
-#navbar {
+.header__navigation {
   background-color: #424B54;
   position: fixed;
   top: 0px;
@@ -10,13 +10,13 @@
   justify-content: flex-end;
 }
 
-nav ul {
+.header__navigation__list {
   margin: 0px;
   margin-top: 0;
   padding: 5px 0px 5px 30px;
 }
 
-nav li {
+.header__navigation__link {
   display: inline;
   margin-right: 60px;
   margin-left: 30px;

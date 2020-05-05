@@ -7,36 +7,34 @@ import './header.css';
 class Header extends Component {
   render() {
     return (
-      <div>
-        <nav id="navbar">
-          <ul>
-            <li>
-              <NavLink
-                className="nav-link"
-                to="/"
-              >
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="nav-link"
-                to="/projects"
-              >
-                Study projects
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="nav-link"
-                to="/contacts"
-              >
-                Contacts
-              </NavLink>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav className="header__navigation">
+        <ul className="header__navigation__list">
+          <li className="header__navigation__link">
+            <NavLink
+              className="nav-link"
+              to="/"
+            >
+              About
+            </NavLink>
+          </li>
+          <li className="header__navigation__link">
+            <NavLink
+              className="nav-link"
+              to="/projects"
+            >
+              Study projects
+            </NavLink>
+          </li>
+          <li className="header__navigation__link">
+            <NavLink
+              className="nav-link"
+              to="/contacts"
+            >
+              Contacts
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
     );
   }
 }
