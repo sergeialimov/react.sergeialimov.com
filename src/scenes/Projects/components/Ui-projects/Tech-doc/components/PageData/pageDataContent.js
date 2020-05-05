@@ -2,8 +2,8 @@ import React from 'react';
 
 const pageDataContent = {
   introduction: {
-    header: "Introduction",
-    id: "introduction",
+    header: 'Introduction',
+    id: 'introduction',
     body: (
       <div className="tech-doc__page-data__text">
         <p className="tech-doc__page-data__paragraph">
@@ -22,6 +22,20 @@ const pageDataContent = {
         </ul>
       </div>
     ),
+  },
+  requirements: {
+    header: 'What you should already know',
+    id: 'requirements',
+    body: (
+      <div className="tech-doc__page-data__text">
+        <p className="tech-doc__page-data__paragraph">This guide assumes you have the following basic background:</p>
+        <ul className="tech-doc__page-data__list">
+          <li className="tech-doc__page-data__list-item">A general understanding of the Internet and the World Wide Web (WWW).</li>
+          <li className="tech-doc__page-data__list-item">Good working knowledge of HyperText Markup Language (HTML).</li>
+          <li className="tech-doc__page-data__list-item">Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
+        </ul>
+      </div>
+    )
   }
 }
 
