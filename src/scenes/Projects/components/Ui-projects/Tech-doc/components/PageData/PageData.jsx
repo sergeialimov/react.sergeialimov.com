@@ -5,8 +5,6 @@ import varName from './pageDataContent.js';
 
 import './pageData.css';
 
-console.log('--------', varName)
-
 const PageData = () => {
   return (
     <div>
