@@ -4,18 +4,20 @@ import './tribute-page.css';
 
 const TributePage = () => {
   return (
-    <div id="main">
-      <div id="title">
-        <h1>Dr. Norman Borlaug</h1>
+    <div className="tribute-page__main">
+      <div className="tribute-page__title">
+        <h1 className="tribute-page__header__h1">Dr. Norman Borlaug</h1>
         <p>The man who saved a billion lives</p>
       </div>
-      <div id="img-div">
-        <img id="image" src='https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg' />
-        <p id="img-caption">Dr. Norman Borlaug, second from left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</p>
+      <div className="tribute-page__image-wrapper">
+        <img className="tribute-page__image" src='https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg' />
+        <p className="tribute-page__image-caption">Dr. Norman Borlaug, second from left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</p>
       </div>
-      <div id="tribute-info">
-        <h2>Here's a time line of Dr. Borlaug's life:</h2>
-        <ul id="bio-list">
+      <div className="tribute-page__biography">
+        <h2 className="tribute-page__header__h2">
+          Here's a time line of Dr. Borlaug's life:
+        </h2>
+        <ul className="tribute-page__bio-list">
           <li><strong>1914</strong> - Born in Cresco, Iowa</li>
           <li><strong>1933</strong> - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li>
           <li><strong>1935</strong> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
@@ -37,17 +39,16 @@ const TributePage = () => {
           <li><strong>2009</strong> - dies at the age of 95.</li>
         </ul>
       </div>
-      <div id="quote">
+      <div className="tribute-page__quote">
         <p>
           <i>"Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."
         </i></p>
         <p><i>-- Indian Prime Minister Manmohan Singh</i></p>
       </div>
-      <div id="additional-div">
-        <p id="additional">
+      <div className="tribute-page__additionals__wrapper">
+        <p className="tribute-page__additionals__paragraph">
           <strong>If you have time, you should read more about this incredible human being on his 
             <a
-              id="tribute-link"
               href="https://en.wikipedia.org/wiki/Norman_Borlaug"
               target="_blank"
               alt=""

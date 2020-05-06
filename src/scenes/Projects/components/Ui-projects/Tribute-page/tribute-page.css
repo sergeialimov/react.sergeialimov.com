@@ -1,11 +1,11 @@
-#main {
+.tribute-page__main {
   font-family: sans-serif;
   background-color: #e4e4e4;
   border-radius: 5px;
   margin-bottom: 30px;
 }
 
-#title {
+.tribute-page__title {
   text-align: center;
 }
 
@@ -13,56 +13,53 @@ li {
   padding-top: 10px
 }
 
-h1 {
+.tribute-page__header__h1 {
   padding-top: 20px;
 }
 
-h2 {
+.tribute-page__header__h2 {
   padding-left: 30px;
   font-size: 20px;
 }
 
-#img-caption {
+.tribute-page__image-caption {
   text-align: center;
 }
 
-#tribute-info {
+.tribute-page__biography {
   width: 50%;
   margin: auto;
   text-align: left;
 }
 
-#img-div {
+.tribute-page__image-wrapper {
   background-color: white;
   padding-bottom: 10px;
 }
 
-img {
+.tribute-page__image {
   margin: auto;
   max-width: 100%;
   display: block;
   height: auto;
 }
 
-#bio-list {
+.tribute-page__bio-list {
   /* text-align: left; */
 }
 
-#quote {
+.tribute-page__quote {
   max-width: 85%;
   margin: auto;
   text-align: center;
 }
-#additional-div {
+
+.tribute-page__additionals__wrapper {
   text-align: center;
   padding-bottom: 15px;
 }
 
-#additional {
+.tribute-page__additionals__paragraph {
   font-size: 18px;
   /* font-weight: 500; */
-}
-
-#tribute-link {
-
 }
