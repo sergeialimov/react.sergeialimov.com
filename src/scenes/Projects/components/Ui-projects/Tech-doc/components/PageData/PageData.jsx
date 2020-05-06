@@ -11,16 +11,15 @@ const classNames = {
   li: "tech-doc__page-data__list-item",
   code: "tech-doc__page-data__code",
 };
-const pageDataContent = getPageDataContent(classNames);
-const keys = Object.keys(pageDataContent);
 
-const content = keys.map(
-  key => (
-    <section className="main-section" id={pageDataContent[key].id}>
+const pageDataContent = getPageDataContent(classNames);
+
+const content = pageDataContent.map((x) => (
+    <section className="main-section" id={x.id}>
       <header>
-        <h2 className="tech-doc__page-data__header_h2">{pageDataContent[key].header}</h2>
+        <h2 className="tech-doc__page-data__header_h2">{x.header}</h2>
       </header>
-      {pageDataContent[key].body}
+      {x.body}
     </section>
   )
 );

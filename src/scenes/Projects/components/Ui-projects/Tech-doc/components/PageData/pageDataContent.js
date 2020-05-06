@@ -2,10 +2,10 @@ import React from 'react';
 
 
 const getPageDataContent = (classNames) => {
-  return {
-    introduction: {
-      header: 'Introduction',
-      id: 'introduction',
+  return [
+    {
+      header: 'introduction',
+      id: 'Introduction',
       body: (
         <div className={classNames.text}>
           <p className={classNames.p}>
@@ -25,7 +25,7 @@ const getPageDataContent = (classNames) => {
         </div>
       ),
     },
-    requirements: {
+    {
       header: 'What you should already know',
       id: 'requirements',
       body: (
@@ -39,7 +39,7 @@ const getPageDataContent = (classNames) => {
         </div>
       )
     },
-    jsAndJava: {
+    {
       header: 'JavaScript and Java',
       id: 'jsAndJava',
       body: (
@@ -50,7 +50,7 @@ const getPageDataContent = (classNames) => {
         </div>
       )
     },
-    helloWorld: {
+    {
       header: 'Hello world',
       id: 'helloWorld',
       body: (
@@ -58,13 +58,55 @@ const getPageDataContent = (classNames) => {
           <p className={classNames.p}>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
           <pre className={classNames.code}>
             {
-              `  const greetMe = (yourName) => {\n    alert("Hello " + yourName);\n  }\n  greetMe("World");`
+              `const greetMe = (yourName) => {\n  alert("Hello " + yourName);\n}\ngreetMe("World");`
             }
           </pre>
         </div>
       )
     },
-  }
+    {
+      header: 'Variables',
+      id: 'variables',
+      body: (
+        <div className={classNames.text}>
+          <p className={classNames.p}>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
+          <p className={classNames.p}>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
+          <p className={classNames.p}>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
+        </div>
+      )
+    },
+    {
+      header: 'Declaring variables',
+      id: 'declaringVariables',
+      body: (
+        <div className={classNames.text}>
+          <p className={classNames.p}>You can declare a variable in three ways:</p>
+          <p className={classNames.p}>With the keyword var. For example,</p>
+          <code className={classNames.code}>var x = 42.</code>
+          <p className={classNames.p}>This syntax can be used to declare both local and global variables.</p>
+          <p className={classNames.p}>By simply assigning it a value. For example,</p>
+          <code className={classNames.code}>x = 42.</code>
+          <p className={classNames.p}>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.</p>
+          <p className={classNames.p}>With the keyword let. For example,</p>
+          <code className={classNames.code}>let y = 13.</code>
+          <p className={classNames.p}>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
+        </div>
+      )
+    },
+    {
+      header: 'Variable scope',
+      id: 'variableScope',
+      body: (
+        <div className={classNames.text}>
+          <p className={classNames.p}>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
+            <p className={classNames.p}>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
+            <pre className={classNames.code}>{`if (true) {\n  var x = 5;\n}\nconsole.log(x);  // 5`}</pre>
+            <p className={classNames.p}>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
+            <pre className={classNames.code}>{`if (true) {\n  let y = 5;\n}\nconsole.log(y);\n// ReferenceError: y is not defined`}</pre>
+        </div>
+      )
+    },
+  ]
 }
 
 export default getPageDataContent;
