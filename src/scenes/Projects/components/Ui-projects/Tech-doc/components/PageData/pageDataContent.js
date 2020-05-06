@@ -49,7 +49,21 @@ const getPageDataContent = (classNames) => {
           <p className={classNames.p}>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
         </div>
       )
-    }
+    },
+    helloWorld: {
+      header: 'Hello world',
+      id: 'helloWorld',
+      body: (
+        <div className={classNames.text}>
+          <p className={classNames.p}>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+          <pre className={classNames.code}>
+            {
+              `  const greetMe = (yourName) => {\n    alert("Hello " + yourName);\n  }\n  greetMe("World");`
+            }
+          </pre>
+        </div>
+      )
+    },
   }
 }
 

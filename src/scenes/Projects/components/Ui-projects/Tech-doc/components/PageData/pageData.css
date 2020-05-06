@@ -8,10 +8,10 @@
 }
 
 .tech-doc__page-data__code {
-  display: block;
-  white-space: pre-wrap;
+  width: 270px;
   margin-left: 20px;
   line-height: 25px;
+  background-color: lightgray;
 }
 
 .tech-doc__page-data__list {

@@ -8,7 +8,8 @@ const classNames = {
   p: "tech-doc__page-data__paragraph",
   text: "tech-doc__page-data__text",
   ul: "tech-doc__page-data__list",
-  li: "tech-doc__page-data__list-item"
+  li: "tech-doc__page-data__list-item",
+  code: "tech-doc__page-data__code",
 };
 const pageDataContent = getPageDataContent(classNames);
 const keys = Object.keys(pageDataContent);
