@@ -1,9 +1,16 @@
 import React from 'react';
 
-import pageDataContent from './pageDataContent.js';
+import getPageDataContent from './pageDataContent.js';
 
 import './pageData.css';
 
+const classNames = {
+  p: "tech-doc__page-data__paragraph",
+  text: "tech-doc__page-data__text",
+  ul: "tech-doc__page-data__list",
+  li: "tech-doc__page-data__list-item"
+};
+const pageDataContent = getPageDataContent(classNames);
 const keys = Object.keys(pageDataContent);
 
 const content = keys.map(
