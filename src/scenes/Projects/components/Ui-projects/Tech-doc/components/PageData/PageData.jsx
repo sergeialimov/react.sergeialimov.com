@@ -26,7 +26,7 @@ const content = pageDataContent.map((x) => (
 
 const PageData = () => {
   return (
-    <div>
+    <div className="tech-doc__page-data">
       {content}
     </div>
   );

@@ -1,3 +1,7 @@
+.tech-doc__page-data {
+  overflow-y: scroll;
+}
+
 .tech-doc__page-data__text {
   margin: 10px 20px 40px 20px;
 }

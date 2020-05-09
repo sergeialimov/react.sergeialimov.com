@@ -1,5 +1,5 @@
 .tech-doc__navigation {
-  /* position: fixed; */
+  overflow-y: hidden;
   width: 100%;
   border-style: solid;
   border-color: gray;
