@@ -9,10 +9,6 @@
   text-align: center;
 }
 
-li {
-  padding-top: 10px
-}
-
 .tribute-page__header__h1 {
   padding-top: 20px;
 }
@@ -46,6 +42,10 @@ li {
 
 .tribute-page__bio-list {
   /* text-align: left; */
+}
+
+.tribute-page__list-item {
+  padding-top: 10px
 }
 
 .tribute-page__quote {
