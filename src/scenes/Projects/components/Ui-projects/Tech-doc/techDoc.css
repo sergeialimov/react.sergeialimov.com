@@ -2,7 +2,7 @@
   margin: 0;
 } */
 
-.tech-doc__main {
+.tech-doc__container {
   display: grid;
   grid-template-columns: 300px auto;
   font-family: sans-serif;

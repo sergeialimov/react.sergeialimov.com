@@ -7,7 +7,7 @@ import './techDoc.css';
 
 const TechDoc = () => {
   return (
-    <main className="tech-doc__main">
+    <main className="tech-doc__container">
       <Navigation />
       <PageData />
     </main>
