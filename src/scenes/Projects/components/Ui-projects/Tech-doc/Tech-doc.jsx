@@ -7,10 +7,10 @@ import './techDoc.css';
 
 const TechDoc = () => {
   return (
-    <main className="tech-doc__container">
+    <div className="tech-doc__container">
       <Navigation />
       <PageData />
-    </main>
+    </div>
   );
 }
 
