@@ -31,16 +31,13 @@
 }
 
 
-/* @media (max-width: 815px) {
-  #main-doc {
-    grid-template-columns: auto;
-  }
-
-  h1 {
+@media (max-width: 815px) {
+  .tech-doc__navigation__header__h1 {
     text-align: center;
+    margin-left: 0;
   }
 
-  nav ul {
+  .tech-doc__navigation__list {
     height: 200px;
     overflow: auto;
     margin-bottom: 0px;
@@ -48,4 +45,4 @@
     border-color: gray;
     border-width: 3px 0 3px 0;
   }
-} */
+}
