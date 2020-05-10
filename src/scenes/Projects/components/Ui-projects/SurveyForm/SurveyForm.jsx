@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Improvement from './components';
+import { Improvement } from './components';
 
 import './surveyForm.css';
 
@@ -55,7 +55,7 @@ const SurveyForm = () => {
             <input type="number" id="number" placeholder="Age" required size="45" min="10" max="100" />
           </div>
           <div className="labels">
-            {/* <label for "role">Which option best describes your current role?</label> */}
+            <label htmlFor="role">Which option best describes your current role?</label>
           </div>
           <div className="right-tab">
             <select id="dropdown">
@@ -93,7 +93,7 @@ const SurveyForm = () => {
             </div>
           </div>
           <div className="labels">
-            {/* <label for "role">What do you like most in FCC:</label> */}
+            <label htmlFor="role">What do you like most in FCC:</label>
           </div>
           <div className="right-tab">
             <select id="like" value="Select an option" id="dropdown">
