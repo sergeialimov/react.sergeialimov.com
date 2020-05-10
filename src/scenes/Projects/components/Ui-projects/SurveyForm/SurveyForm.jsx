@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Improvement } from './components';
+import { Improvement, RadioGroup } from './components';
 
 import './surveyForm.css';
 
@@ -71,26 +71,7 @@ const SurveyForm = () => {
             <label id="recommendation-label">* How likely is that you would recommend freeCodeCamp to a friend?</label>
           </div>
           <div className="right-tab">
-            <div className="radio-group">
-              <div className="radio-item">
-                <label className="radio-label" htmlFor="definitely">
-                  <input className="radio-input" id="definitely" type="radio" name="recommendation" value="1" />
-                    Definitely
-                </label>
-              </div>
-              <div className="radio-item">
-                <label className="radio-label" htmlFor="maybe">
-                  <input className="radio-input" id="maybe" type="radio" name="recommendation" value="2" />
-                    May be
-                </label>
-              </div>
-              <div className="radio-item">
-                <label className="radio-label" htmlFor="notsure">
-                  <input className="radio-input" id="notSure" type="radio" name="recommendation" value="3" />
-                    Not sure
-                </label>
-              </div>
-            </div>
+            <RadioGroup />
           </div>
           <div className="labels">
             <label htmlFor="role">What do you like most in FCC:</label>
