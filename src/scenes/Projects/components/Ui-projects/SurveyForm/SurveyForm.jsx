@@ -37,19 +37,19 @@ const SurveyForm = () => {
         <p id="description">Let us know how we can improve freeCodeCamp</p>
         <div id="form-body">
           <div className="labels">
-            <label for="name" id="name-label">* Name:</label>
+            <label htmlFor="name" id="name-label">* Name:</label>
           </div>
           <div className="right-tab">
-            <input autofocus type="text" id="name" placeholder="Enter your name" required size="45" />
+            <input autoFocus type="text" id="name" placeholder="Enter your name" required size="45" />
           </div>
           <div className="labels">
-            <label for="email" id="email-label">* Email:</label>
+            <label htmlFor="email" id="email-label">* Email:</label>
           </div>
           <div className="right-tab">
             <input type="email" id="email" placeholder="Enter your Email" required size="145" />
           </div>
           <div className="labels">
-            <label for="age" id="number-label">* Age:</label>
+            <label htmlFor="age" id="number-label">* Age:</label>
           </div>
           <div className="right-tab">
             <input type="number" id="number" placeholder="Age" required size="45" min="10" max="100" />
@@ -73,19 +73,19 @@ const SurveyForm = () => {
           <div className="right-tab">
             <div className="radio-group">
               <div className="radio-item">
-                <label className="radio-label" for="definitely">
+                <label className="radio-label" htmlFor="definitely">
                   <input className="radio-input" id="definitely" type="radio" name="recommendation" value="1" />
                     Definitely
                 </label>
               </div>
               <div className="radio-item">
-                <label className="radio-label" for="maybe">
+                <label className="radio-label" htmlFor="maybe">
                   <input className="radio-input" id="maybe" type="radio" name="recommendation" value="2" />
                     May be
                 </label>
               </div>
               <div className="radio-item">
-                <label className="radio-label" for="notsure">
+                <label className="radio-label" htmlFor="notsure">
                   <input className="radio-input" id="notSure" type="radio" name="recommendation" value="3" />
                     Not sure
                 </label>
