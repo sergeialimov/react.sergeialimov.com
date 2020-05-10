@@ -1,8 +1,35 @@
 import React from 'react';
 
+import Improvement from './components';
+
 import './surveyForm.css';
 
+
+const improvementsData = [
+  'Front-end Projects',
+  'Back-end Projects',
+  'Data visualization',
+  'Challenges',
+  'Open Source Community',
+  'Gitter help rooms',
+  'Videos',
+  'City Meetups',
+  'Wiki',
+  'Forum',
+];
+
 const SurveyForm = () => {
+  const improvements = improvementsData.map((x) => {
+    x = (
+      <Improvement
+        content={x}
+        id={x}
+        forr={x}
+        value={improvementsData.indexOf(x)}
+      />
+    )
+  })
+
   return (
     <main>
       <h1 id="title">Survey Form</h1>
@@ -79,74 +106,11 @@ const SurveyForm = () => {
           </div>
           <div class="labels labels-align-top">
             <label id="recommendation-label">
-              {/* Things that should be improved in the future <br>(Check all that apply): */}
+              {`Things that should be improved in the future\n(Check all that apply):`}
             </label>
           </div>
           <div class="right-tab">
-            <div class="checkbox-group">
-              <div class="checkbox-item">
-                <label class="checkbox-label" for="front">
-                  <input class="checkbox-input" id="front-end-projects" type="checkbox" name="improve" value="1" />
-                  Front-end Projects
-                </label>
-              </div>
-              <div class="checkbox-item">
-                <label class="checkbox-label" for="back">
-                  <input class="checkbox-input" id="back-end-projects" type="checkbox" name="improve" value="2" />
-                  Back-end Projects
-                </label>
-              </div>
-              <div class="checkbox-item">
-                <label class="checkbox-label" for="data">
-                  <input class="checkbox-input" id="data-visualization" type="checkbox" name="improve" value="3" />
-                  Data Visualization
-                </label>
-              </div>
-
-              <div class="checkbox-item">
-                <label class="checkbox-label" for="challenges">
-                  <input class="checkbox-input" id="challenges" type="checkbox" name="improve" value="4" />
-                  Challenges
-                </label>
-              </div>
-              <div class="checkbox-item">
-                <label class="checkbox-label" for="open-source">
-                  <input class="checkbox-input" id="open-source-community" type="checkbox" name="improve" value="5" />
-                  Open Source Community
-                </label>
-              </div>
-              <div class="checkbox-item">
-                <label class="checkbox-label" for="help-rooms">
-                  <input class="checkbox-input" id="gitter-help-rooms" type="checkbox" name="improve" value="6" />
-                  Gitter help rooms
-                </label>
-              </div>
-              <div class="checkbox-item">
-                <label class="checkbox-label" for="videos">
-                  <input class="checkbox-input" id="videos" type="checkbox" name="improve" value="7" />
-                  Videos
-                </label>
-              </div>
-
-              <div class="checkbox-item">
-                <label class="checkbox-label" for="meetups">
-                  <input class="checkbox-input" id="city-meetups" type="checkbox" name="improve" value="8" />
-                  City Meetups
-                </label>
-              </div>
-              <div class="checkbox-item">
-                <label class="checkbox-label" for="wiki">
-                  <input class="checkbox-input" id="wiki" type="checkbox" name="improve" value="9" />
-                  Wiki
-                </label>
-              </div>
-              <div class="checkbox-item">
-                <label class="checkbox-label" for="forum">
-                  <input class="checkbox-input" id="forum" type="checkbox" name="improve" value="10" />
-                  Forum
-                </label>
-              </div>
-            </div>
+            {improvements}
           </div>
           <div class="labels labels-align-top">
             <label id="recommendation-label">Any Comments or Suggestions?</label>
