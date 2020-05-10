@@ -13,22 +13,22 @@ const SurveyForm = () => {
             <label for="name" id="name-label">* Name:</label>
           </div>
           <div class="right-tab">
-            <input autofocus type="text" id="name" placeholder="Enter your name" required size="45">
+            <input autofocus type="text" id="name" placeholder="Enter your name" required size="45" />
           </div>
           <div class="labels">
             <label for="email" id="email-label">* Email:</label>
           </div>
           <div class="right-tab">
-            <input type="email" id="email" placeholder="Enter your Email" required size="145">
+            <input type="email" id="email" placeholder="Enter your Email" required size="145" />
           </div>
           <div class="labels">
             <label for="age" id="number-label">* Age:</label>
           </div>
           <div class="right-tab">
-            <input type="number" id="number" placeholder="Age" required size="45" min="10" max="100">
+            <input type="number" id="number" placeholder="Age" required size="45" min="10" max="100" />
           </div>
           <div class="labels">
-            <label for "role">Which option best describes your current role?</label>
+            {/* <label for "role">Which option best describes your current role?</label> */}
           </div>
           <div class="right-tab">
             <select id="dropdown">
@@ -47,26 +47,26 @@ const SurveyForm = () => {
             <div class="radio-group">
               <div class="radio-item">
                 <label class="radio-label" for="definitely">
-                  <input class="radio-input" id="definitely" type="radio" name="recommendation" value="1">
+                  <input class="radio-input" id="definitely" type="radio" name="recommendation" value="1" />
                     Definitely
                 </label>
               </div>
               <div class="radio-item">
                 <label class="radio-label" for="maybe">
-                  <input class="radio-input" id="maybe" type="radio" name="recommendation" value="2">
+                  <input class="radio-input" id="maybe" type="radio" name="recommendation" value="2" />
                     May be
                 </label>
               </div>
               <div class="radio-item">
                 <label class="radio-label" for="notsure">
-                  <input class="radio-input" id="notSure" type="radio" name="recommendation" value="3">
+                  <input class="radio-input" id="notSure" type="radio" name="recommendation" value="3" />
                     Not sure
                 </label>
               </div>
             </div>
           </div>
           <div class="labels">
-            <label for "role">What do you like most in FCC:</label>
+            {/* <label for "role">What do you like most in FCC:</label> */}
           </div>
           <div class="right-tab">
             <select id="like" value="Select an option" id="dropdown">
@@ -79,70 +79,70 @@ const SurveyForm = () => {
           </div>
           <div class="labels labels-align-top">
             <label id="recommendation-label">
-              Things that should be improved in the future <br>(Check all that apply):
+              {/* Things that should be improved in the future <br>(Check all that apply): */}
             </label>
           </div>
           <div class="right-tab">
             <div class="checkbox-group">
               <div class="checkbox-item">
                 <label class="checkbox-label" for="front">
-                  <input class="checkbox-input" id="front-end-projects" type="checkbox" name="improve" value="1">
+                  <input class="checkbox-input" id="front-end-projects" type="checkbox" name="improve" value="1" />
                   Front-end Projects
                 </label>
               </div>
               <div class="checkbox-item">
                 <label class="checkbox-label" for="back">
-                  <input class="checkbox-input" id="back-end-projects" type="checkbox" name="improve" value="2">
+                  <input class="checkbox-input" id="back-end-projects" type="checkbox" name="improve" value="2" />
                   Back-end Projects
                 </label>
               </div>
               <div class="checkbox-item">
                 <label class="checkbox-label" for="data">
-                  <input class="checkbox-input" id="data-visualization" type="checkbox" name="improve" value="3">
+                  <input class="checkbox-input" id="data-visualization" type="checkbox" name="improve" value="3" />
                   Data Visualization
                 </label>
               </div>
 
               <div class="checkbox-item">
                 <label class="checkbox-label" for="challenges">
-                  <input class="checkbox-input" id="challenges" type="checkbox" name="improve" value="4">
+                  <input class="checkbox-input" id="challenges" type="checkbox" name="improve" value="4" />
                   Challenges
                 </label>
               </div>
               <div class="checkbox-item">
                 <label class="checkbox-label" for="open-source">
-                  <input class="checkbox-input" id="open-source-community" type="checkbox" name="improve" value="5">
+                  <input class="checkbox-input" id="open-source-community" type="checkbox" name="improve" value="5" />
                   Open Source Community
                 </label>
               </div>
               <div class="checkbox-item">
                 <label class="checkbox-label" for="help-rooms">
-                  <input class="checkbox-input" id="gitter-help-rooms" type="checkbox" name="improve" value="6">
+                  <input class="checkbox-input" id="gitter-help-rooms" type="checkbox" name="improve" value="6" />
                   Gitter help rooms
                 </label>
               </div>
               <div class="checkbox-item">
                 <label class="checkbox-label" for="videos">
-                  <input class="checkbox-input" id="videos" type="checkbox" name="improve" value="7">
+                  <input class="checkbox-input" id="videos" type="checkbox" name="improve" value="7" />
                   Videos
                 </label>
               </div>
 
               <div class="checkbox-item">
                 <label class="checkbox-label" for="meetups">
-                  <input class="checkbox-input" id="city-meetups" type="checkbox" name="improve" value="8">
+                  <input class="checkbox-input" id="city-meetups" type="checkbox" name="improve" value="8" />
                   City Meetups
                 </label>
               </div>
               <div class="checkbox-item">
                 <label class="checkbox-label" for="wiki">
-                  <input class="checkbox-input" id="wiki" type="checkbox" name="improve" value="9">
+                  <input class="checkbox-input" id="wiki" type="checkbox" name="improve" value="9" />
                   Wiki
                 </label>
               </div>
               <div class="checkbox-item">
                 <label class="checkbox-label" for="forum">
-                  <input class="checkbox-input" id="forum" type="checkbox" name="improve" value="10">
+                  <input class="checkbox-input" id="forum" type="checkbox" name="improve" value="10" />
                   Forum
                 </label>
               </div>
