@@ -1,40 +1,9 @@
-<!doctype html>
-<html>
-  <head>
-    <link rel="stylesheet" href="./../styles/survey-form.css">
-    <link rel="icon" href="http://sergeialimov.com/favicon.png?v=2"/>
-  </head>
-  <body>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function (d, w, c) {
-            (w[c] = w[c] || []).push(function() {
-                try {
-                    w.yaCounter50400052 = new Ya.Metrika2({
-                        id:50400052,
-                        clickmap:true,
-                        trackLinks:true,
-                        accurateTrackBounce:true,
-                        webvisor:true
-                    });
-                } catch(e) { }
-            });
+import React from 'react';
 
-            var n = d.getElementsByTagName("script")[0],
-                s = d.createElement("script"),
-                f = function () { n.parentNode.insertBefore(s, n); };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = "https://mc.yandex.ru/metrika/tag.js";
+import './surveyForm.css';
 
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f, false);
-            } else { f(); }
-        })(document, window, "yandex_metrika_callbacks2");
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/50400052" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-
+const SurveyForm = () => {
+  return (
     <main>
       <h1 id="title">Survey Form</h1>
       <form id="survey-form">
@@ -191,15 +160,7 @@
         </div>
       </form>
     </main>
-  </body>
-</html>
+  );
+};
 
-<!-- 
-
-Hello Camper!
-
-For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
-
-- The freeCodeCamp Team 
-
--->
+export default SurveyForm;
