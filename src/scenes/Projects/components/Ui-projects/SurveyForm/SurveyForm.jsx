@@ -20,7 +20,7 @@ const improvementsData = [
 
 const SurveyForm = () => {
   const improvements = improvementsData.map((x) => {
-    x = (
+    return x = (
       <Improvement
         content={x}
         id={x}
