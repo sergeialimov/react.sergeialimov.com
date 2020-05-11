@@ -4,10 +4,10 @@ import React from 'react';
 
 const Improvement = ({ content, forr, id, value }) => {
   return (
-    <div class="checkbox-group">
-      <div class="checkbox-item">
-        <label class="checkbox-label" htmlFor={forr}>
-          <input class="checkbox-input" id={id} type="checkbox" name="improve" value={value} />
+    <div className="checkbox-group">
+      <div className="checkbox-item">
+        <label className="checkbox-label" htmlFor={forr}>
+          <input className="checkbox-input" id={id} type="checkbox" name="improve" value={value} />
           {content}
         </label>
       </div>
