@@ -97,7 +97,7 @@ const SurveyForm = () => {
             <label id="recommendation-label">Any Comments or Suggestions?</label>
           </div>
           <div className="right-tab">
-            <textarea name="comment" rows="6" cols="10">Enter your comment here...</textarea>
+            <textarea name="comment" rows="6" cols="10" defaultValue="Enter your comment here..." />
           </div>
         </div>
         <div className="button-div">
