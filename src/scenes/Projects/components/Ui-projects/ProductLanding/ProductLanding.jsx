@@ -1,11 +1,15 @@
 import React from 'react';
 
 import './productLanding.css';
+import { Header, Main, Footer } from './components';
+
 
 const ProductLanding = () => {
   return (
     <div className="product-landing__container">
-      planding
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 };
