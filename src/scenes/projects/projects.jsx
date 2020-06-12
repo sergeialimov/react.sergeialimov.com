@@ -6,7 +6,7 @@ import Project from './components';
 import tribute from './components/ui-projects/Tribute-page/tribute.jpg';
 import doc from './components/ui-projects/Tech-doc/doc.jpg';
 import survey from './components/ui-projects/SurveyForm/survey.jpg';
-import land from './components/ui-projects/Product-landing/land.jpg';
+import land from './components/ui-projects/ProductLanding/land.jpg';
 
 import './projects.css';
 

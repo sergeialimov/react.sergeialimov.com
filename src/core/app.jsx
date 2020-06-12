@@ -8,6 +8,7 @@ import Projects from '@src/scenes/Projects';
 import TributePage from '@src/scenes/Projects/components/Ui-projects/Tribute-page';
 import TechDoc from '@src/scenes/Projects/components/Ui-projects/Tech-doc';
 import SurveyFrom from '@src/scenes/Projects/components/Ui-projects/SurveyForm';
+import ProductLanding from '@src/scenes/Projects/components/Ui-projects/ProductLanding';
 
 import './app.css';
 
@@ -26,7 +27,7 @@ class App extends Component {
               <Contacts />
             </Route>
             <Route path="/projects/product-landing">
-              <h2>product-landing</h2>;
+              <ProductLanding />
             </Route>
             <Route path="/projects/survey-form">
               <SurveyFrom />
