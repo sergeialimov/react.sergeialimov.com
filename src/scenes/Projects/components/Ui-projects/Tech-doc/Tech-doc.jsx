@@ -5,13 +5,11 @@ import PageData from './components/PageData';
 
 import './techDoc.css';
 
-const TechDoc = () => {
-  return (
-    <div className="tech-doc__container">
-      <Navigation />
-      <PageData />
-    </div>
-  );
-}
+const TechDoc = () => (
+  <div className="tech-doc__container">
+    <Navigation />
+    <PageData />
+  </div>
+);
 
 export default TechDoc;

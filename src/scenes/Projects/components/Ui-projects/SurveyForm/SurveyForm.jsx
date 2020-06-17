@@ -4,7 +4,6 @@ import { Improvement, RadioGroup } from './components';
 
 import './surveyForm.css';
 
-
 const improvementsData = [
   'Front-end Projects',
   'Back-end Projects',
@@ -19,29 +18,26 @@ const improvementsData = [
 ];
 
 class SurveyForm extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props);
     this.state = {
 
-    }
+    };
     this.getImprovements = this.getImprovements.bind(this);
-  };
+  }
 
+  getImprovements(data) {
+    return data.map((x) => x = (
+      <Improvement
+        content={x}
+        id={x}
+        forr={x}
+        value={data.indexOf(x)}
+      />
+    ));
+  }
 
-  getImprovements (data) {
-    return data.map((x) => {
-      return x = (
-        <Improvement
-          content={x}
-          id={x}
-          forr={x}
-          value={data.indexOf(x)}
-        />
-      )
-    });
-  };
-
-  render () {
+  render() {
     const improvements = this.getImprovements(improvementsData);
 
     return (
@@ -101,7 +97,7 @@ class SurveyForm extends Component {
             </div>
             <div className="labels labels-align-top">
               <label id="recommendation-label">
-                {`Things that should be improved in the future\n(Check all that apply):`}
+                {'Things that should be improved in the future\n(Check all that apply):'}
               </label>
             </div>
             <div className="right-tab">
@@ -119,8 +115,8 @@ class SurveyForm extends Component {
           </div>
         </form>
       </main>
-    )
-  };
-};
+    );
+  }
+}
 
 export default SurveyForm;

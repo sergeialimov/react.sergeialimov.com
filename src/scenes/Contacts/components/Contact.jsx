@@ -8,7 +8,7 @@ const Contact = (props) => {
   return (
     <a
       id="profile-link"
-      href={ link }
+      href={link}
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -17,6 +17,6 @@ const Contact = (props) => {
       </div>
     </a>
   );
-}
+};
 
 export default Contact;

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import {
+  BrowserRouter as Router, Route, Switch, Link,
+} from 'react-router-dom';
 
 import About from '@src/scenes/About';
 import Contacts from '@src/scenes/Contacts';
@@ -16,6 +18,7 @@ class App extends Component {
   componentDidMount() {
     document.body.style.margin = '0';
   }
+
   render() {
     return (
       <div id="app">
@@ -45,9 +48,9 @@ class App extends Component {
               <About />
             </Route>
           </Switch>
-      </Router>
-    </div>
-    )
+        </Router>
+      </div>
+    );
   }
 }
 

@@ -64,7 +64,7 @@ module.exports = (env, argv) => ({
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: './public/index.html',
-      favicon: './public/favicon.png'
+      favicon: './public/favicon.png',
     }),
     new ConfigWebpackPlugin(),
     new webpack.DefinePlugin({

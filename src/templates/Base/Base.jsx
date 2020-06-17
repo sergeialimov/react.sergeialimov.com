@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import Header from '../components/Header';
 // import './base.styl';
 
-
 const BaseTemplate = (props) => {
   const {
     content,

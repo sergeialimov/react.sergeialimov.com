@@ -15,6 +15,6 @@ const About = (props) => {
       content={content}
     />
   );
-}
+};
 
 export default About;

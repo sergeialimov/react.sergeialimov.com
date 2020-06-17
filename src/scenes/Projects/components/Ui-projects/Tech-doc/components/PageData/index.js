@@ -1,1 +1,1 @@
-export { default } from './PageData.jsx'; 
+export { default } from './PageData.jsx';

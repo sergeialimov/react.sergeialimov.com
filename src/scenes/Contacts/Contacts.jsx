@@ -39,6 +39,6 @@ const Contacts = (props) => {
       content={content}
     />
   );
-}
+};
 
 export default Contacts;
