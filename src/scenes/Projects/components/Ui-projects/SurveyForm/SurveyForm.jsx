@@ -50,7 +50,7 @@ class SurveyForm extends Component {
               <label htmlFor="name" id="name-label">* Name:</label>
             </div>
             <div className="right-tab">
-              <input autoFocus type="text" id="name" placeholder="Enter your name" required size="45" />
+              <input type="text" id="name" placeholder="Enter your name" required size="45" />
             </div>
             <div className="labels">
               <label htmlFor="email" id="email-label">* Email:</label>
