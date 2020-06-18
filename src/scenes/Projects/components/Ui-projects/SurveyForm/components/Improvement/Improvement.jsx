@@ -1,14 +1,14 @@
 import React from 'react';
 
-// import 'improvement.css';
+import './improvement.css';
 
 const Improvement = ({
   content, forr, id, value,
 }) => (
-  <div className="checkbox-group">
-    <div className="checkbox-item">
-      <label className="checkbox-label" htmlFor={forr}>
-        <input className="checkbox-input" id={id} type="checkbox" name="improve" value={value} />
+  <div className="improvement__checkbox-group">
+    <div className="improvement__checkbox-item">
+      <input className="improvement__checkbox-input" id={id} type="checkbox" name="improve" value={value} />
+      <label className="improvement__checkbox-label" htmlFor={forr}>
         {content}
       </label>
     </div>

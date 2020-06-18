@@ -50,19 +50,26 @@ class SurveyForm extends Component {
               <label htmlFor="name" id="name-label">* Name:</label>
             </div>
             <div className="right-tab">
-              <input autoFocus type="text" id="name" placeholder="Enter your name" required size="45" />
+              <input
+                autoFocus
+                className="survey-form__input"
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required size="45"
+              />
             </div>
             <div className="labels">
               <label htmlFor="email" id="email-label">* Email:</label>
             </div>
             <div className="right-tab">
-              <input type="email" id="email" placeholder="Enter your Email" required size="145" />
+              <input className="survey-form__input" type="email" id="email" placeholder="Enter your Email" required size="145" />
             </div>
             <div className="labels">
               <label htmlFor="age" id="number-label">* Age:</label>
             </div>
             <div className="right-tab">
-              <input type="number" id="number" placeholder="Age" required size="45" min="10" max="100" />
+              <input className="survey-form__input" type="number" id="number" placeholder="Age" required size="45" min="10" max="100" />
             </div>
             <div className="labels">
               <label htmlFor="role">Which option best describes your current role?</label>
