@@ -11,7 +11,8 @@
     "start": "node server.js",
     "heroku-postbuild": "webpack -p",
     "lint": "eslint . --ext .js --ext .jsx",
-    "fix": "npm run lint -- --fix"
+    "fix": "npm run lint -- --fix",
+    "lione": "eslint"
   },
   "dependencies": {
     "@babel/core": "^7.8.7",
