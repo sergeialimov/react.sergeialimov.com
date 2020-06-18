@@ -52,20 +52,12 @@ body {
   margin-bottom: 10px;
 }
 
-.radio-group, .checkbox-group {
+.radio-group {
   margin-top: 0px;
   align-self: flex-start;
 }
 
-.radio-label, .checkbox-label {
-
-}
-
-.radio-item, .checkbox-item {
-
-}
-
-.radio-input, .checkbox-input {
+.radio-input {
   padding-left: -10px;
   padding-top: 0px;
   margin-right: -5px;
@@ -144,18 +136,12 @@ textarea {
     margin-bottom: 10px;
   }
 
-  .radio-group, .checkbox-group {
+  .radio-group {
     margin-bottom: 0px;
   }
 
-  .radio-item, .checkbox-item {
+  .radio-item {
     margin-top: -20px;
-  }
-
-  .radio-label, .checkbox-label {
-  }
-
-  .radio-item, .checkbox-item {
     margin-top: -5px;
   }
 }
