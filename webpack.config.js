@@ -26,6 +26,7 @@ module.exports = (env, argv) => ({
       '@root': path.resolve(__dirname),
       '@src': path.resolve(__dirname, 'src/'),
     },
+    extensions: ['.js', '.jsx'],
   },
   module: {
     rules: [
