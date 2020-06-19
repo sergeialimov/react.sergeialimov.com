@@ -9,7 +9,7 @@
 .survey-form__form {
   background-color: #f6f6f6;
   border-radius: 5px;
-  max-height: 1700px;
+  max-height: 1800px;
   margin: auto;
   padding: 20px 10px 20px 10px;
 }
@@ -76,7 +76,8 @@
 
 .survey-form__submit__container {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .survey-form__submit__button {
