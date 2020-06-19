@@ -52,7 +52,7 @@ body {
   margin-bottom: 10px;
 }
 
-input {
+.survey-form__input {
   text-align: left;
   height: 30px;
   width: 65%;
