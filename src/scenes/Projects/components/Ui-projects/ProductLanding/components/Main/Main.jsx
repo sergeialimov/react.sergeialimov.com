@@ -46,13 +46,13 @@ const Main = () => (
       </div>
     </div>
     <div id="how-it-works">
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameBorder="0" allowFullScreen />
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameBorder="0" allowFullScreen title="how-it-works" />
     </div>
     <div id="pricing">
       <div className="price-block">
         <div className="price-header">TENOR TROMBONE</div>
         <p className="price">$600</p>
-        {/* <p class="description">Lorem ipsum.<br>Lorem ipsum.<br>Lorem ipsum dolor.<br>Lorem ipsum. */}
+        <p className="description">{'Lorem ipsum.\nLorem ipsum.\nLorem ipsum dolor.\nLorem ipsum'}</p>
         <div className="select-wrap">
           <input className="select" type="submit" name="select" id="select-tenor" value="SELECT" />
         </div>
@@ -60,7 +60,7 @@ const Main = () => (
       <div className="price-block">
         <div className="price-header">BASS TROMBONE</div>
         <p className="price">$900</p>
-        {/* <p class="description">Lorem ipsum.<br>Lorem ipsum.<br>Lorem ipsum dolor.<br>Lorem ipsum. */}
+        <p className="description">{'Lorem ipsum.\nLorem ipsum.\nLorem ipsum dolor.\nLorem ipsum.'}</p>
         <div className="select-wrap">
           <input className="select" type="submit" name="select" id="select-bass" value="SELECT" />
         </div>
@@ -68,7 +68,7 @@ const Main = () => (
       <div className="price-block">
         <div className="price-header">VALVE TROMBONE</div>
         <p className="price">$1200</p>
-        {/* <p class="description">Lorem ipsum.<br>Lorem ipsum.<br>Lorem ipsum dolor.<br>Lorem ipsum. */}
+        <p className="description">{'Lorem ipsum.\nLorem ipsum.\nLorem ipsum dolor.\nLorem ipsum.'}</p>
         <div className="select-wrap">
           <input className="select" type="submit" name="select" id="select-valve" value="SELECT" />
         </div>

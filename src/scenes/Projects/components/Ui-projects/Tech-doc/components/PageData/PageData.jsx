@@ -1,6 +1,6 @@
 import React from 'react';
 
-import getPageDataContent from './pageDataContent.js';
+import getPageDataContent from './pageDataContent';
 
 import './pageData.css';
 
