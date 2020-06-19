@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <header id="header">
-    <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" />
+    <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="trombones" />
     <nav id="nav-bar">
       <ul>
         <li><a className="nav-link" href="#feature">Features</a></li>
