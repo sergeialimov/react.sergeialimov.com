@@ -1,3 +1,3 @@
-import About from './About.jsx';
+import About from './About';
 
 export default About;

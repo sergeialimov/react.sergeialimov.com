@@ -1,1 +1,1 @@
-export { default } from './Tech-doc.jsx';
+export { default } from './Tech-doc';

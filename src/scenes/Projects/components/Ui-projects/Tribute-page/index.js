@@ -1,1 +1,1 @@
-export { default } from './Tribute-page.jsx';
+export { default } from './Tribute-page';
