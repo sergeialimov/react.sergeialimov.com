@@ -41,34 +41,34 @@ class SurveyForm extends Component {
     const improvements = this.getImprovements(improvementsData);
 
     return (
-      <main>
-        <h1 id="title">Survey Form</h1>
-        <form id="survey-form">
-          <p id="description">Let us know how we can improve freeCodeCamp</p>
-          <div id="form-body">
-            <div className="labels">
+      <main className="survey-form__main">
+        <h1 className="survey-form__h1">Survey Form</h1>
+        <form className="survey-form__form">
+          <p className="survey-form__description">Let us know how we can improve freeCodeCamp</p>
+          <div className="survey-form__form-body">
+            <div className="survey-form__label">
               <label htmlFor="name" id="name-label">* Name:</label>
             </div>
-            <div className="right-tab">
+            <div className="survey-form__right-tab">
               <input className="survey-form__input" type="text" id="name" placeholder="Enter your name" required size="45" />
             </div>
-            <div className="labels">
+            <div className="survey-form__label">
               <label htmlFor="email" id="email-label">* Email:</label>
             </div>
-            <div className="right-tab">
+            <div className="survey-form__right-tab">
               <input className="survey-form__input" type="email" id="email" placeholder="Enter your Email" required size="145" />
             </div>
-            <div className="labels">
+            <div className="survey-form__label">
               <label htmlFor="age" id="number-label">* Age:</label>
             </div>
-            <div className="right-tab">
+            <div className="survey-form__right-tab">
               <input className="survey-form__input" type="number" id="number" placeholder="Age" required size="45" min="10" max="100" />
             </div>
-            <div className="labels">
+            <div className="survey-form__label">
               <label htmlFor="role">Which option best describes your current role?</label>
             </div>
-            <div className="right-tab">
-              <select id="dropdown">
+            <div className="survey-form__right-tab">
+              <select className="survey-form__select">
                 <option value="select-an-option" disabled>Select an option</option>
                 <option value="student" selected>Student</option>
                 <option value="fullTimeJob">Full time job</option>
@@ -77,17 +77,17 @@ class SurveyForm extends Component {
                 <option value="other">Other</option>
               </select>
             </div>
-            <div className="labels labels-align-top">
+            <div className="survey-form__label labels-align-top">
               <label id="recommendation-label">* How likely is that you would recommend freeCodeCamp to a friend?</label>
             </div>
-            <div className="right-tab">
+            <div className="survey-form__right-tab">
               <Recommendation />
             </div>
-            <div className="labels">
+            <div className="survey-form__label">
               <label htmlFor="role">What do you like most in FCC:</label>
             </div>
-            <div className="right-tab">
-              <select id="like" value="Select an option" id="dropdown">
+            <div className="survey-form__right-tab">
+              <select className="survey-form__select" value="Select an option">
                 <option value="select-an-option" selected disabled>Select an option</option>
                 <option value="challenges">Challenges</option>
                 <option value="projects">Projects</option>
@@ -95,23 +95,23 @@ class SurveyForm extends Component {
                 <option value="open-source">Open Source</option>
               </select>
             </div>
-            <div className="labels labels-align-top">
+            <div className="survey-form__label labels-align-top">
               <label id="recommendation-label">
                 {'Things that should be improved in the future\n(Check all that apply):'}
               </label>
             </div>
-            <div className="right-tab">
+            <div className="survey-form__right-tab">
               {improvements}
             </div>
-            <div className="labels labels-align-top">
+            <div className="survey-form__label labels-align-top">
               <label id="recommendation-label">Any Comments or Suggestions?</label>
             </div>
-            <div className="right-tab">
-              <textarea name="comment" rows="6" cols="10" defaultValue="Enter your comment here..." />
+            <div className="survey-form__right-tab">
+              <textarea className="survey-form__textarea" name="comment" rows="6" cols="10" defaultValue="Enter your comment here..." />
             </div>
           </div>
-          <div className="button-div">
-            <button className="button" type="submit" id="submit">Submit</button>
+          <div className="survey-form__submit__container">
+            <button className="survey-form__submit__button" type="submit" id="submit">Submit</button>
           </div>
         </form>
       </main>
