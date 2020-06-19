@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Improvement, RadioGroup } from './components';
+import { Improvement, Recommendation } from './components';
 
 import './surveyForm.css';
 
@@ -81,7 +81,7 @@ class SurveyForm extends Component {
               <label id="recommendation-label">* How likely is that you would recommend freeCodeCamp to a friend?</label>
             </div>
             <div className="right-tab">
-              <RadioGroup />
+              <Recommendation />
             </div>
             <div className="labels">
               <label htmlFor="role">What do you like most in FCC:</label>

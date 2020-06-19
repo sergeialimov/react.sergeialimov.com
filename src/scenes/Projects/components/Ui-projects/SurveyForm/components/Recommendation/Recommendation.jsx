@@ -1,8 +1,8 @@
 import React from 'react';
 
-// import 'improvement.css';
+import './recommendation.css';
 
-const RadioGroup = () => (
+const Recommendation = () => (
   <div className="radio-group">
     <div className="radio-item">
       <label className="radio-label" htmlFor="definitely">
@@ -25,4 +25,4 @@ const RadioGroup = () => (
   </div>
 );
 
-export default RadioGroup;
+export default Recommendation;
