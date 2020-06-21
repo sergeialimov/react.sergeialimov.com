@@ -1,0 +1,30 @@
+.product-landing__get-started {
+  margin-bottom: 50px;
+}
+
+.product-landing__get-started__form {
+  text-align: center;
+}
+
+.product-landing__get-started__email {
+  margin: 5 5 10 5;
+  text-align: center;
+  border-style: none;
+  border-radius: 1px;
+  height: 35px;
+  font-size: 18px;
+  width: 250px;
+  height: 30px;
+  border: gray 1px solid;
+}
+
+.product-landing__get-started__submit{
+  margin: 5 5 5 5;
+  background-color: #f1c40f;
+  text-align: center;
+  border-style: none;
+  border-radius: 1px;
+  height: 35px;
+  width: 150px;
+  font-size: 18px;
+}
