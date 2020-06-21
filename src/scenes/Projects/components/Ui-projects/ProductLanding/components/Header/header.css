@@ -1,0 +1,30 @@
+.product-landing__header__h1 {
+  position: fixed;
+  padding-top: 30px;
+  top: 0px;
+  height: 60px;
+  width: 100%;
+  z-index: 1000;
+  background: #eee;
+}
+
+.product-landing__header__logo {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.product-landing__header__navigation {
+  float: right;
+  margin-right: 20px; 
+}
+
+
+.product-landing__header__navigation__ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+
+.product-landing__header__navigation__li {
+  color: black;
+  text-decoration: none;
+}
