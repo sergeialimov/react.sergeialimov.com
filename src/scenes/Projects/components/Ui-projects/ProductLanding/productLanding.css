@@ -10,8 +10,6 @@
   margin: auto;
 } */
 
-
-
 .get-started {
   margin-bottom: 50px;
 }
@@ -140,32 +138,6 @@ main {
   height: 35px;
   width: 100px;
   font-size: 18px;
-}
-
-footer {
-  height: 60px;
-  width: 100%;
-  background-color: lightgray;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 10 0 10 0;
-}
-
-.footer-links ul {
-  text-align: right;
-  margin: 5 10 0 10;
-}
-
-.footer-links li {
- display: inline;
-}
-
-.footer-link {
-  margin: 0 10 0 10;
-  text-decoration: none;
-  color: black;
 }
 
 .copyright {

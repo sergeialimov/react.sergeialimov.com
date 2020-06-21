@@ -1,0 +1,24 @@
+.product-landing__footer {
+  height: 60px;
+  width: 100%;
+  background-color: lightgray;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10 0 10 0;
+}
+
+.product-landing__footer__container {
+  display: inline;
+}
+
+.product-landing__footer__ul {
+  text-align: right;
+  margin: 5 10 0 10;
+  display: inline;
+}
+
+.product-landing__footer__li {
+  display: inline;
+}

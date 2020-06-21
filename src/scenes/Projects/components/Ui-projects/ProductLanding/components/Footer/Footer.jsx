@@ -1,12 +1,14 @@
 import React from 'react';
 
+import './footer.css';
+
 const Footer = () => (
-  <footer>
-    <div className="footer-links">
-      <ul>
-        <li><p className="footer-link">Privacy</p></li>
-        <li><p className="footer-link">Terms</p></li>
-        <li><p className="footer-link">Contact</p></li>
+  <footer className="product-landing__footer">
+    <div className="product-landing__footer__container">
+      <ul className="product-landing__footer__ul">
+        <li><p className="product-landing__footer__li">Privacy</p></li>
+        <li><p className="product-landing__footer__li">Terms</p></li>
+        <li><p className="product-landing__footer__li">Contact</p></li>
       </ul>
     </div>
     <div className="copyright">Copyright 2016, Original Trombones</div>
