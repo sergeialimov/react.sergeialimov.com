@@ -1,0 +1,17 @@
+.product-landing__main {
+  max-width: 90%;
+  margin: auto;
+}
+
+.product-landing__header__h1 {
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 22px;
+}
+
+@media (max-width: 600px) {
+  .product-landing__header__h1 {
+    padding-top: 150px;
+  }
+}
