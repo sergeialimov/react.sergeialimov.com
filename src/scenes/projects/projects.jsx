@@ -16,10 +16,10 @@ const Projects = () => {
       <div className="projects__content">
         <h1 className="projects__header-h1">Study projects</h1>
         <p className="projects__text">Most of my work results cannot be published because of NDA</p>
-        <p className="projects__text">For that case, I've created the small "pet" projects to demonstrate my skills in web layouts</p>
+        <p className="projects__text">{'For that case, I\'ve created the small "pet" projects to demonstrate my skills in web layouts'}</p>
         <p className="projects__text" />
         <p className="projects__text">The following projects were done while taking the course on Freecodecamp</p>
-        <a className="projects__link" href="https://www.freecodecamp.org/learn" target="_blank">
+        <a className="projects__link" href="https://www.freecodecamp.org/learn" rel="noreferrer" target="_blank">
           Responsive Web Design Certification
         </a>
 
