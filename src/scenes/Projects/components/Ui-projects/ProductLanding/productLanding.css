@@ -36,35 +36,6 @@ main {
   margin: 5 5 5 5;
 }
 
-#feature {
-  margin-top: 80px;
-  max-width: 80%;
-  grid-template-columns: 1fr;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.feature {
-  display: flex;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
-.icon {
-  margin: 5 20 5 20;
-}
-
-.feature-header {
-  font-size: 30px;
-  margin: 0 15 0 15;
-}
-
-.feature-text {
-  margin-top: 5px;
-  margin-left: 15px;
-  font-weight: 450;
-}
-
 #how-it-works {
   text-align: center;
 }
@@ -92,15 +63,7 @@ main {
 }
 
 @media (max-width: 600px) {
-  .icon {
-    display: none
-  }
-
   #title {
     padding-top: 150px;
-  }
-
-  #feature {
-    text-align: center;
   }
 }
