@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import BaseTemplate from '@src/templates/Base';
 import Project from './components';
@@ -10,7 +10,7 @@ import land from './components/ui-projects/ProductLanding/land.jpg';
 
 import './projects.css';
 
-const Projects = (props) => {
+const Projects = () => {
   const content = (
     <section id="projects">
       <div className="projects__content">
@@ -27,31 +27,31 @@ const Projects = (props) => {
         <div id="project-tiles">
           <Project
             content="Tribute page"
-            classNm="project-tile left-column"
+            className="project-tile left-column"
             path="/projects/tribute-page"
             src={tribute}
           />
           <Project
             content="Survey Form"
-            classNm="project-tile right-column"
+            className="project-tile right-column"
             path="/projects/survey-form"
             src={survey}
           />
           <Project
             content="Technical documentation"
-            classNm="project-tile left-column"
+            className="project-tile left-column"
             path="/projects/tech-doc"
             src={doc}
           />
           <Project
             content="Product landing page"
-            classNm="project-tile right-column"
+            className="project-tile right-column"
             path="/projects/product-landing"
             src={land}
           />
         </div>
         <h2 className="projects__header-h2">The code can be found on my Github account:</h2>
-        <a className="projects__github-link" href="https://github.com/sergeialimov" target="_blank">https://github.com/sergeialimov</a>
+        <a className="projects__github-link" href="https://github.com/sergeialimov" rel="noreferrer" target="_blank">https://github.com/sergeialimov</a>
       </div>
     </section>
   );
