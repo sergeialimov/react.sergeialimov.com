@@ -1,13 +1,15 @@
 import React from 'react';
 
+import './header.css';
+
 const Header = () => (
-  <header id="header">
-    <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="trombones" />
-    <nav id="nav-bar">
-      <ul>
-        <li><a className="nav-link" href="#feature">Features</a></li>
-        <li><a className="nav-link" href="#how-it-works">How it works</a></li>
-        <li><a className="nav-link" href="#pricing">Pricing</a></li>
+  <header className="product-landing__header__h1">
+    <img className="product-landing__header__logo" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="trombones" />
+    <nav className="product-landing__header__navigation">
+      <ul className="product-landing__header__navigation__ul">
+        <li><a className=".product-landing__header__navigation__li" href="#feature">Features</a></li>
+        <li><a className=".product-landing__header__navigation__li" href="#how-it-works">How it works</a></li>
+        <li><a className=".product-landing__header__navigation__li" href="#pricing">Pricing</a></li>
       </ul>
     </nav>
   </header>
