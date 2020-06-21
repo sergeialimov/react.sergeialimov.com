@@ -22,3 +22,8 @@
 .product-landing__footer__li {
   display: inline;
 }
+
+.product-landing__footer__copyright {
+  text-align: right;
+  margin: 0 10 5 10;
+}
