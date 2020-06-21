@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Features from './components';
 // const iconPath = './../../../camera-icon.png';
 
 const Main = () => (
@@ -15,36 +16,7 @@ const Main = () => (
         </div>
       </form>
     </div>
-
-    <div id="feature" name="features">
-      <div className="feature">
-        <div className="icon">
-          {/* <img src="./../../camera-icon.png" width="50" /> */}
-        </div>
-        <div className="feature-text-part">
-          <p className="feature-header">Premium Materials</p>
-          <p className="feature-text">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-        </div>
-      </div>
-      <div className="feature">
-        <div className="icon">
-          {/* <img src={iconPath} width="50" /> */}
-        </div>
-        <div className="feature-text-part">
-          <p className="feature-header">Fast Shipping</p>
-          <p className="feature-text">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-        </div>
-      </div>
-      <div className="feature">
-        <div className="icon">
-          {/* <img src={iconPath} width="50" /> */}
-        </div>
-        <div className="feature-text-part">
-          <p className="feature-header">Quality Assurance</p>
-          <p className="feature-text">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-        </div>
-      </div>
-    </div>
+    <Features />
     <div id="how-it-works">
       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameBorder="0" allowFullScreen title="how-it-works" />
     </div>
