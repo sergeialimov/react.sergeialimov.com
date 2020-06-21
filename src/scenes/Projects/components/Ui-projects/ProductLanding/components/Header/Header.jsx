@@ -3,7 +3,7 @@ import React from 'react';
 import './header.css';
 
 const Header = () => (
-  <header className="product-landing__header__h1">
+  <header className="product-landing__header">
     <img className="product-landing__header__logo" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="trombones" />
     <nav className="product-landing__header__navigation">
       <ul className="product-landing__header__navigation__ul">
