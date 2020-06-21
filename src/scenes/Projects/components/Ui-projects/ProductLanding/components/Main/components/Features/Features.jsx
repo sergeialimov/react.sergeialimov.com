@@ -1,10 +1,12 @@
 import React from 'react';
 
+import image from './cameraIcon.png';
+
 const Features = () => (
   <div id="feature" name="features">
     <div className="feature">
       <div className="icon">
-        <img src="./../../camera-icon.png" width="50" alt="alt" />
+        <img src={image} width="50" alt="alt" />
       </div>
       <div className="feature-text-part">
         <p className="feature-header">Premium Materials</p>
@@ -13,7 +15,7 @@ const Features = () => (
     </div>
     <div className="feature">
       <div className="icon">
-        {/* <img src={iconPath} width="50" /> */}
+        <img src={image} width="50" alt="alt" />
       </div>
       <div className="feature-text-part">
         <p className="feature-header">Fast Shipping</p>
@@ -22,7 +24,7 @@ const Features = () => (
     </div>
     <div className="feature">
       <div className="icon">
-        {/* <img src={iconPath} width="50" /> */}
+        <img src={image} width="50" alt="alt" />
       </div>
       <div className="feature-text-part">
         <p className="feature-header">Quality Assurance</p>
