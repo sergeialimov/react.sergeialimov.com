@@ -5,7 +5,8 @@
 
 .product-landing__header__h1 {
   position: relative;
-  padding-top: 100px;
+  padding-top: 120px;
+  margin-bottom: 30px;
   text-align: center;
   font-size: 22px;
 }

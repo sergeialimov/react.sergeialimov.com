@@ -3,13 +3,13 @@ import React from 'react';
 import './getStarted.css';
 
 const GetStarted = () => (
-  <div className="product-landing__get-started">
-    <form action="https://www.freecodecamp.com/email-submit" className="product-landing__get-started__form" htmlFor="submit">
+  <div className="get-started__container">
+    <form action="https://www.freecodecamp.com/email-submit" className="get-started__form" htmlFor="submit">
       <div>
-        <input type="email" className="product-landing__get-started__email" name="email" placeholder="Enter your email address" />
+        <input type="email" className="get-started__form__email" name="email" placeholder="Enter your email address" />
       </div>
-      <div>
-        <input type="submit" name="email" className="product-landing__get-started__submit" value="GET STARTED" />
+      <div className="get-started__form__submit__wrapper">
+        <input type="submit" name="email" className="get-started__form__submit__button" value="GET STARTED" />
       </div>
     </form>
   </div>
