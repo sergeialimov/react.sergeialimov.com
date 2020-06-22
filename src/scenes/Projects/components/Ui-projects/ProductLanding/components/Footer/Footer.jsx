@@ -11,7 +11,12 @@ const Footer = () => (
         <li><p className="product-landing__footer__li">Contact</p></li>
       </ul>
     </div>
-    <div className="product-landing__footer__copyright">Copyright 2016, Original Trombones</div>
+    <div className="product-landing__footer__copyright">
+      Copyright
+      {' '}
+      {new Date().getFullYear()}
+      , Original Trombones
+    </div>
   </footer>
 );
 

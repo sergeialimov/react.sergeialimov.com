@@ -5,7 +5,7 @@ import './pricing.css';
 const Pricing = () => (
   <div className="pricing__container">
     <div className="pricing__price-block">
-      <div className="pricing__price__header">TENOR TROMBONE</div>
+      <div className="pricing__price__header">TENOR TROMBONE JP230</div>
       <p className="pricing__price">$600</p>
       <p className="pricing__description">
         {
@@ -19,12 +19,12 @@ const Pricing = () => (
       </div>
     </div>
     <div className="pricing__price-block">
-      <div className="pricing__price__header">BASS TROMBONE</div>
+      <div className="pricing__price__header">BASS TROMBONE JP230</div>
       <p className="pricing__price">$900</p>
       <p className="pricing__description">
         {
         `The JP230 Rath would be suitable for a progressing player and would be suited to playing in wind bands and concert bands, as well as performing in jazz ensembles or big bands.
-        They are characterised by a professional standard of workmanship and a very high level of performance.q
+        They are characterised by a professional standard of workmanship and a very high level of performance.
         `
         }
       </p>
@@ -33,7 +33,7 @@ const Pricing = () => (
       </div>
     </div>
     <div className="pricing__price-block">
-      <div className="pricing__price__header">VALVE TROMBONE</div>
+      <div className="pricing__price__header">VALVE TROMBONE JP333</div>
       <p className="pricing__price">$1200</p>
       <p className="pricing__description">
         {
