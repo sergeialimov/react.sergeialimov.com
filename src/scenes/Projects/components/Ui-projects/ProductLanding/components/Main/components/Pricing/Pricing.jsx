@@ -24,7 +24,7 @@ const Pricing = () => (
       <p className="pricing__description">
         {
         `The JP230 Rath would be suitable for a progressing player and would be suited to playing in wind bands and concert bands, as well as performing in jazz ensembles or big bands.
-        They are characterised by a professional standard of workmanship and a very high level of performance.
+        They are characterised by a professional standard of workmanship and a very high level of performance.q
         `
         }
       </p>

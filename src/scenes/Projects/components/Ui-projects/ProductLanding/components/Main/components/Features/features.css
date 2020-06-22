@@ -1,6 +1,6 @@
 .features__container {
-  margin-top: 80px;
-  max-width: 800px;
+  margin-top: 120px;
+  max-width: 900px;
   grid-template-columns: 1fr;
   margin-left: auto;
   margin-right: auto;
@@ -8,8 +8,8 @@
 
 .features__feature__container {
   display: flex;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .features__feature__icon {
@@ -18,14 +18,15 @@
 }
 
 .features__feature__header {
-  font-size: 30px;
   margin: 0px 15px 0px 15px;
+  font-size: 30px;
+  font-weight: 250;
 }
 
 .features__feature__text {
   margin-top: 5px;
   margin-left: 15px;
-  font-weight: 450;
+  font-weight: 250;
 }
 
 

@@ -1,7 +1,7 @@
 .pricing__container {
   display: flex;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
 }
@@ -10,9 +10,9 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 3px;
-  width: 250px;
-  height: 310px;
-  margin: 10 10 20 10;
+  width: 300px;
+  height: 400px;
+  margin: 10px 20px 20px 10px;
 }
 
 .pricing__price__header {
@@ -26,15 +26,18 @@
 
 .pricing__price {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 5px;
 }
 
 .pricing__description {
-  text-align: center;
-  line-height: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+  line-height: 25px;
+  font-weight: 200;
 }
 
 .pricing__submit__wrapper {
@@ -42,7 +45,7 @@
 }
 
 .pricing__submit__button {
-  margin: 5 5 5 5;
+  margin: 5px 5px 5px 5px;
   background-color: #f1c40f;
   text-align: center;
   border-style: none;

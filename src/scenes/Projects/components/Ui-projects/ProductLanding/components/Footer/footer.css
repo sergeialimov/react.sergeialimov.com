@@ -2,11 +2,12 @@
   height: 60px;
   width: 100%;
   background-color: lightgray;
-  margin-top: 20px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 10 0 10 0;
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 0px;
 }
 
 .product-landing__footer__container {
@@ -15,7 +16,7 @@
 
 .product-landing__footer__ul {
   text-align: right;
-  margin: 5 10 0 10;
+  margin: 5px 10px 0px 10px;
   display: inline;
 }
 
@@ -25,5 +26,5 @@
 
 .product-landing__footer__copyright {
   text-align: right;
-  margin: 0 10 5 10;
+  margin: 0px 10px 5px 10px;
 }

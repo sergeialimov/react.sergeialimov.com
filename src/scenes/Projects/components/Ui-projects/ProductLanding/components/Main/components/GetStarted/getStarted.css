@@ -1,6 +1,6 @@
 .get-started__container {
   margin-bottom: 50px;
-  margin-top: 10px;
+  margin-top: 70px;
 }
 
 .get-started__form {
@@ -23,7 +23,7 @@
 }
 
 .get-started__form__submit__button{
-  margin: 15 5 5 5;
+  margin: 15px 5px 5px 5px;
   background-color: #f1c40f;
   text-align: center;
   border-style: none;
