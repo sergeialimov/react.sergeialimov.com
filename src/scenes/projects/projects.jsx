@@ -10,12 +10,20 @@ import land from './components/ui-projects/ProductLanding/land.jpg';
 
 import './projects.css';
 
+const link = <a className="projects__nda-link" href="https://en.wikipedia.org/wiki/Non-disclosure_agreement" rel="noreferrer" target="_blank">NDA</a>;
+
 const Projects = () => {
   const content = (
     <section id="projects">
       <div className="projects__content">
         <h1 className="projects__header-h1">Study projects</h1>
-        <p className="projects__text">Most of my work results are under NDA and cannot be published</p>
+        <p className="projects__text projects__text__inline">
+          Most of my work results are under
+        </p>
+        {' '}
+        {link}
+        {' '}
+        <p className="projects__text projects__text__inline">and cannot be published</p>
         <p className="projects__text">{'I\'ve created small "pet" projects to demonstrate my skills in web layouts'}</p>
         <p className="projects__text" />
         <p className="projects__text">The following projects were done while taking the course on Freecodecamp</p>
@@ -51,7 +59,7 @@ const Projects = () => {
           />
         </div>
         <h2 className="projects__header-h2">The code can be found on my Github account:</h2>
-        <a className="projects__github-link" href="https://github.com/sergeialimov" rel="noreferrer" target="_blank">https://github.com/sergeialimov</a>
+        <a className="projects__github-link" href="https://github.com/sergeialimov" rel="noreferrer" target="_blank">github.com/sergeialimov</a>
       </div>
     </section>
   );

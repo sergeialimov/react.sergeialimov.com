@@ -21,7 +21,7 @@
   font-weight: 300;
   font-size: 20px;
   margin-top: 60px;
-  /* margin-bottom: 0px; */
+  margin-bottom: 20px;
   color: #dddfd4;
 }
 
@@ -30,8 +30,29 @@
   font-weight: 100;
 }
 
+.projects__text__inline {
+  display: inline;
+}
+
+.projects__nda-link {
+  display: inline;
+  color: #dddfd4;
+  font-weight: 300;
+  text-decoration-color: #dddfd4;
+}
+
+.projects__nda-link:hover {
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+
 .projects__link {
   color: #dddfd4;
+  font-size: 20px;
   font-weight: 300;
   text-decoration-color: #dddfd4;
 }
@@ -41,13 +62,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: none;
+  text-decoration: none;
 }
 
 .projects__github-link {
-  margin-top: 20px;
   color: #dddfd4;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 150;
   text-decoration-color: #dddfd4;
+  letter-spacing: 0.05em;
 }
 
 .projects__github-link:hover {
@@ -55,6 +78,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: none;
+  text-decoration: none;
 }
 
 #project-tiles {
