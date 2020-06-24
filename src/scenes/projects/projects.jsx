@@ -3,10 +3,10 @@ import React from 'react';
 import BaseTemplate from '@src/templates/Base';
 import Project from './components';
 
-import tribute from './components/ui-projects/Tribute-page/tribute.jpg';
-import doc from './components/ui-projects/Tech-doc/doc.jpg';
-import survey from './components/ui-projects/SurveyForm/survey.jpg';
-import land from './components/ui-projects/ProductLanding/land.jpg';
+import tribute from './components/Ui-projects/Tribute-page/tribute.jpg';
+import doc from './components/Ui-projects/Tech-doc/doc.jpg';
+import survey from './components/Ui-projects/SurveyForm/survey.jpg';
+import land from './components/Ui-projects/ProductLanding/land.jpg';
 
 import './projects.css';
 
