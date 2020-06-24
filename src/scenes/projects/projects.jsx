@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BaseTemplate from '@src/templates/Base';
+import BaseTemplate from './../../templates/Base';
 import Project from './components';
 
 import tribute from './components/ui-projects/Tribute-page/tribute.jpg';

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './about.css';
-import BaseTemplate from '@src/templates/Base';
+import BaseTemplate from './../../templates/Base';
 
 const About = (props) => {
   const content = (
