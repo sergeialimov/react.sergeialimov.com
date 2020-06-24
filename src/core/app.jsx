@@ -4,13 +4,13 @@ import {
   BrowserRouter as Router, Route, Switch, Link,
 } from 'react-router-dom';
 
-import About from './../scenes/About';
-import Contacts from './../scenes/Contacts';
-import Projects from './../scenes/Projects';
-import TributePage from './../scenes/Projects/components/Ui-projects/Tribute-page';
-import TechDoc from './../scenes/Projects/components/Ui-projects/Tech-doc';
-import SurveyFrom from './../scenes/Projects/components/Ui-projects/SurveyForm';
-import ProductLanding from './../scenes/Projects/components/Ui-projects/ProductLanding';
+import About from '@src/scenes/About';
+import Contacts from '@src/scenes/Contacts';
+import Projects from '@src/scenes/Projects';
+import TributePage from '@src/scenes/Projects/components/Ui-projects/Tribute-page';
+import TechDoc from '@src/scenes/Projects/components/Ui-projects/Tech-doc';
+import SurveyFrom from '@src/scenes/Projects/components/Ui-projects/SurveyForm';
+import ProductLanding from '@src/scenes/Projects/components/Ui-projects/ProductLanding';
 
 import './app.css';
 

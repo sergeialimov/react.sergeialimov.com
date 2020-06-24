@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BaseTemplate from './../../templates/Base';
+import BaseTemplate from '@src/templates/Base';
 import Contact from './components';
 
 import './contacts.css';
