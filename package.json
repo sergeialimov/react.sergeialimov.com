@@ -6,10 +6,9 @@
     "node": "12.16.x"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js",
     "dev": "webpack-dev-server --mode development --open --watch",
     "start": "node server.js",
-    "heroku-postbuild": "webpack -p",
+    "heroku-postbuild": "set NODE_ENV=production && webpack -p",
     "lint": "eslint . --ext .js --ext .jsx",
     "fix": "npm run lint -- --fix",
     "lione": "eslint",
