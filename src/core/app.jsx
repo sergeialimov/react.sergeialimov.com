@@ -7,8 +7,8 @@ import {
 import About from '@src/scenes/About';
 import Contacts from '@src/scenes/Contacts';
 import Projects from '@src/scenes/Projects';
-import TributePage from '@src/scenes/Projects/components/Ui-projects/Tribute-page';
-import TechDoc from '@src/scenes/Projects/components/Ui-projects/Tech-doc';
+import TributePage from '@src/scenes/Projects/components/Ui-projects/TributePage';
+import TechDoc from '@src/scenes/Projects/components/Ui-projects/TechDoc';
 import SurveyFrom from '@src/scenes/Projects/components/Ui-projects/SurveyForm';
 import ProductLanding from '@src/scenes/Projects/components/Ui-projects/ProductLanding';
 

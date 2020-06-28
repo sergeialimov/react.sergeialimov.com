@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './tribute-page.css';
+import './tributePage.css';
 
 const TributePage = () => (
   <div className="tribute-page__main">
