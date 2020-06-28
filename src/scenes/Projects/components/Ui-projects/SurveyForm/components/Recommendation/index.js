@@ -1,1 +1,1 @@
-export { default } from './Recommendation.jsx';
+export { default } from './Recommendation';
