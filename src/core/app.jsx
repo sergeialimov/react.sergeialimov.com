@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import {
-  BrowserRouter as Router, Route, Switch, Link,
+  BrowserRouter as Router, Route, Switch,
 } from 'react-router-dom';
 
 import About from '@src/scenes/About';
@@ -15,10 +15,6 @@ import ProductLanding from '@src/scenes/Projects/components/Ui-projects/ProductL
 import './app.css';
 
 class App extends Component {
-  componentDidMount() {
-    document.body.style.margin = '0';
-  }
-
   render() {
     return (
       <div id="app">
