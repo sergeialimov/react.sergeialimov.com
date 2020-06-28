@@ -16,6 +16,6 @@ module.exports = {
     'import/resolver': 'webpack',
   },
   rules: {
-    'no-console':  'off',
-  }
+    'no-console': 'off',
+  },
 };
