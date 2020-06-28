@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import {
   BrowserRouter as Router, Route, Switch,
@@ -14,40 +14,36 @@ import ProductLanding from '@src/scenes/Projects/components/Ui-projects/ProductL
 
 import './app.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div id="app">
-        <Router>
-          {/* A <Switch> looks through its children <Route>s and
-              renders the first one that matches the current URL. */}
-          <Switch>
-            <Route path="/contacts">
-              <Contacts />
-            </Route>
-            <Route path="/projects/product-landing">
-              <ProductLanding />
-            </Route>
-            <Route path="/projects/survey-form">
-              <SurveyFrom />
-            </Route>
-            <Route path="/projects/tech-doc">
-              <TechDoc />
-            </Route>
-            <Route path="/projects/tribute-page">
-              <TributePage />
-            </Route>
-            <Route path="/projects">
-              <Projects />
-            </Route>
-            <Route path="/">
-              <About />
-            </Route>
-          </Switch>
-        </Router>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div id="app">
+    <Router>
+      {/* A <Switch> looks through its children <Route>s and
+          renders the first one that matches the current URL. */}
+      <Switch>
+        <Route path="/contacts">
+          <Contacts />
+        </Route>
+        <Route path="/projects/product-landing">
+          <ProductLanding />
+        </Route>
+        <Route path="/projects/survey-form">
+          <SurveyFrom />
+        </Route>
+        <Route path="/projects/tech-doc">
+          <TechDoc />
+        </Route>
+        <Route path="/projects/tribute-page">
+          <TributePage />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        <Route path="/">
+          <About />
+        </Route>
+      </Switch>
+    </Router>
+  </div>
+);
 
 export default App;
