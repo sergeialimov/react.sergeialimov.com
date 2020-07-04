@@ -17,5 +17,6 @@ module.exports = {
   },
   rules: {
     'no-console': 'off',
+    'import/prefer-default-export': 'off',
   },
 };
