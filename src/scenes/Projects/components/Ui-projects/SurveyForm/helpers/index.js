@@ -1,1 +1,1 @@
-export { default as getImprovements } from './getImprovements'
+export { getImprovements } from './getImprovements';

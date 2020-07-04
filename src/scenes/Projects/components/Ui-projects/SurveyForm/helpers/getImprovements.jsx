@@ -15,7 +15,7 @@ const improvementsData = [
   'Forum',
 ];
 
-const getImprovements = () => (
+export const getImprovements = () => (
   improvementsData.map((x) => (
     <Improvement
       content={x}
@@ -24,5 +24,3 @@ const getImprovements = () => (
       value={improvementsData.indexOf(x)}
     />
   )));
-
-export default getImprovements;
