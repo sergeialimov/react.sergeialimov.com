@@ -44,27 +44,19 @@ class SurveyForm extends Component {
         <form className="survey-form__form">
           <p className="survey-form__description">Let us know how we can improve freeCodeCamp</p>
           <div className="survey-form__form-body">
-            <div className="survey-form__label">
-              <label htmlFor="name" id="name-label">* Name:</label>
-            </div>
+            <span className="survey-form__label">* Name:</span>
             <div className="survey-form__right-tab">
               <input className="survey-form__input" type="text" id="name" placeholder="Enter your name" required size="45" />
             </div>
-            <div className="survey-form__label">
-              <label htmlFor="email" id="email-label">* Email:</label>
-            </div>
+            <span className="survey-form__label">* Email:</span>
             <div className="survey-form__right-tab">
               <input className="survey-form__input" type="email" id="email" placeholder="Enter your Email" required size="145" />
             </div>
-            <div className="survey-form__label">
-              <label htmlFor="age" id="number-label">* Age:</label>
-            </div>
+            <span className="survey-form__label">* Age:</span>
             <div className="survey-form__right-tab">
               <input className="survey-form__input" type="number" id="number" placeholder="Age" required size="45" min="10" max="100" />
             </div>
-            <div className="survey-form__label">
-              <label htmlFor="role">Which option best describes your current role?</label>
-            </div>
+            <span className="survey-form__label">Which option best describes your current role?</span>
             <div className="survey-form__right-tab">
               <select className="survey-form__select">
                 <option value="select-an-option" disabled>Select an option</option>
@@ -75,15 +67,11 @@ class SurveyForm extends Component {
                 <option value="other">Other</option>
               </select>
             </div>
-            <div className="survey-form__label labels-align-top">
-              <label id="recommendation-label">* How likely is that you would recommend freeCodeCamp to a friend?</label>
-            </div>
+            <span className="survey-form__label labels-align-top">* How likely is that you would recommend freeCodeCamp to a friend?</span>
             <div className="survey-form__right-tab">
               <Recommendation />
             </div>
-            <div className="survey-form__label">
-              <label htmlFor="role">What do you like most in FCC:</label>
-            </div>
+            <span className="survey-form__label">What do you like most in FCC:</span>
             <div className="survey-form__right-tab">
               <select className="survey-form__select" value="Select an option">
                 <option value="select-an-option" selected disabled>Select an option</option>
@@ -93,17 +81,11 @@ class SurveyForm extends Component {
                 <option value="open-source">Open Source</option>
               </select>
             </div>
-            <div className="survey-form__label labels-align-top">
-              <label id="recommendation-label">
-                {'Things that should be improved in the future\n(Check all that apply):'}
-              </label>
-            </div>
+            <span className="survey-form__label labels-align-top">{'Things that should be improved in the future\n(Check all that apply):'}</span>
             <div className="survey-form__right-tab">
               {improvements}
             </div>
-            <div className="survey-form__label labels-align-top">
-              <label id="recommendation-label">Any Comments or Suggestions?</label>
-            </div>
+            <span className="survey-form__label labels-align-top">Any Comments or Suggestions?</span>
             <div className="survey-form__right-tab">
               <textarea className="survey-form__textarea" name="comment" rows="6" cols="10" defaultValue="Enter your comment here..." />
             </div>
