@@ -6,21 +6,15 @@ const Recommendation = () => (
   <div className="recommendation__radio-group">
     <div className="recommendation__radio-item">
       <input className="recommendation__radio-input" id="definitely" type="radio" name="recommendation" value="1" />
-      <label className="recommendation__radio-label" htmlFor="definitely">
-        Definitely
-      </label>
+      <span className="recommendation__radio-span">Definitely</span>
     </div>
     <div className="recommendation__radio-item">
       <input className="recommendation__radio-input" id="maybe" type="radio" name="recommendation" value="2" />
-      <label className="recommendation__radio-label" htmlFor="maybe">
-        May be
-      </label>
+      <span className="recommendation__radio-span">May be</span>
     </div>
     <div className="recommendation__radio-item">
       <input className="recommendation__radio-input" id="notSure" type="radio" name="recommendation" value="3" />
-      <label className="recommendation__radio-label" htmlFor="notsure">
-        Not sure
-      </label>
+      <span className="recommendation__radio-span">Not sure</span>
     </div>
   </div>
 );
