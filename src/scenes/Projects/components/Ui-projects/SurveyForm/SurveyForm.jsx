@@ -1,31 +1,9 @@
 import React, { Component } from 'react';
 
-import { Improvement, Recommendation } from './components';
+import { Recommendation } from './components';
+import { getImprovements } from './helpers';
 
 import './surveyForm.css';
-
-const improvementsData = [
-  'Front-end Projects',
-  'Back-end Projects',
-  'Data visualization',
-  'Challenges',
-  'Open Source Community',
-  'Gitter help rooms',
-  'Videos',
-  'City Meetups',
-  'Wiki',
-  'Forum',
-];
-
-const getImprovements = () => (
-  improvementsData.map((x) => (
-    <Improvement
-      content={x}
-      id={x}
-      forr={x}
-      value={improvementsData.indexOf(x)}
-    />
-  )));
 
 class SurveyForm extends Component {
   constructor(props) {
