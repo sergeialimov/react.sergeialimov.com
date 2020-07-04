@@ -9,10 +9,12 @@ const get = require('lodash/get');
 
 const outputFolder = 'build';
 
-// When running production, we are not required to set up webpack part of config, as this part is needed only for dev server
+/*
+When running production, we are not required to set up webpack part of config,
+as this part is needed only for dev server
+*/
 const host = get(config, 'webpack.host');
 const port = get(config, 'webpack.port');
-const publicHost = get(config, 'webpack.publicHost');
 
 module.exports = (env, argv) => ({
   entry: './public/index.js',
@@ -46,7 +48,11 @@ module.exports = (env, argv) => ({
             loader: 'file-loader',
             options: {
               name: 'fonts/[name]/[name].[ext]',
-              esModule: false, // having this enabled will cause a bug that does not allow adding fonts to the app correctly
+              /*
+              having this enabled will cause a bug
+              that does not allow adding fonts to the app correctly
+              */
+              esModule: false,
             },
           },
         ],
