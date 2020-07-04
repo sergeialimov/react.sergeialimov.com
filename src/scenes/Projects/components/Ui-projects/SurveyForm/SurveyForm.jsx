@@ -17,28 +17,26 @@ const improvementsData = [
   'Forum',
 ];
 
+const getImprovements = () => (
+  improvementsData.map((x) => (
+    <Improvement
+      content={x}
+      id={x}
+      forr={x}
+      value={improvementsData.indexOf(x)}
+    />
+  )));
+
 class SurveyForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
 
     };
-    this.getImprovements = this.getImprovements.bind(this);
-  }
-
-  getImprovements(data) {
-    return data.map((x) => x = (
-      <Improvement
-        content={x}
-        id={x}
-        forr={x}
-        value={data.indexOf(x)}
-      />
-    ));
   }
 
   render() {
-    const improvements = this.getImprovements(improvementsData);
+    const improvements = getImprovements();
 
     return (
       <main className="survey-form__main">
