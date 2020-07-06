@@ -1,6 +1,6 @@
 {
-  "name": "react.sergeialimov.com",
-  "version": "0.1.0",
+  "name": "sergeialimov.com",
+  "version": "1.0.0",
   "private": true,
   "engines": {
     "node": "12.16.x"
