@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
 import './project.css';
@@ -20,6 +21,20 @@ const Project = (props) => {
       </div>
     </NavLink>
   );
+};
+
+Project.propTypes = {
+  classNm: PropTypes.string,
+  content: PropTypes.string,
+  path: PropTypes.string,
+  src: PropTypes.string,
+};
+
+Project.defaultProps = {
+  classNm: '',
+  content: '',
+  path: '',
+  src: '',
 };
 
 export default Project;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './contact.css';
 
@@ -17,6 +18,16 @@ const Contact = (props) => {
       </div>
     </a>
   );
+};
+
+Contact.propTypes = {
+  content: PropTypes.func,
+  link: PropTypes.string,
+};
+
+Contact.defaultProps = {
+  content: null,
+  link: '',
 };
 
 export default Contact;
