@@ -5,12 +5,12 @@ import Contact from './components';
 
 import './contacts.css';
 
-const Contacts = (props) => {
+const Contacts = () => {
   const content = (
     <section id="social">
       <div className="content">
         <header>
-          <h1 className="contacts__header-h1">Let's work together</h1>
+          <h1 className="contacts__header-h1">{'Let\'s work together'}</h1>
         </header>
         <div className="contacts">
           <Contact

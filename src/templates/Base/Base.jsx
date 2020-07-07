@@ -2,12 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Header from '../components/Header';
-// import './base.styl';
 
 const BaseTemplate = (props) => {
-  const {
-    content,
-  } = props;
+  const { content } = props;
+
   return (
     <div className="base-template">
       <Header />
@@ -17,7 +15,11 @@ const BaseTemplate = (props) => {
 };
 
 BaseTemplate.propTypes = {
-  content: PropTypes.object,
+  content: PropTypes.shape({}),
+};
+
+BaseTemplate.defaultProps = {
+  content: {},
 };
 
 export default BaseTemplate;
