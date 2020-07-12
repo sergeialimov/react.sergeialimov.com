@@ -1,11 +1,8 @@
-.recommendation__radio-group {
-}
-
 .recommendation__radio-item {
   display: flex;
 }
 
-.recommendation__radio-label {
+.recommendation__radio-span {
   margin-top: -5px;
   margin-left: 8px;
   line-height: 37px;
@@ -14,6 +11,4 @@
 .recommendation__radio-input {
   height: 20px;
   width: 20px;
-  /* padding-left: -10px; */
-
 }
