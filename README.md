@@ -1,7 +1,6 @@
 # sergeialimov.com
 
-React based webapp built with webpack. Serves as a personal webpage of Sergei Alimov
-
+React based webapp built with webpack. Serves as a personal webpage of Sergei Alimov [sergeialimov.com](http://www.sergeialimov.com)
 
 
 **Status:** Active
@@ -19,14 +18,12 @@ Contains components that are used in multiple scenes.
 1. `git clone git@github.com:sergeialimov/sergeialimov.com.git`
 2. `cd sergeialimov.com`
 3. `npm i` install node modules
-4. `npm start` run application
+4. `npm run dev` run application in dev mode
 
 ## NPM commands
 1. `npm start` - run dev server in development mode with hot reloading
-2. `npm run server-prod` - run dev server in production mode with hot reloading
 3. `npm run build` - build `index.html` and `bundle.js` files in `/build` folder
-4. `npm run build-prod` - build `index.html` and `bundle.js` files in `/build` folder with production optimizations
-5. `npm run watch` - run webpack in watch mode
+5. `npm run dev` - run webpack in watch mode
 6. `npm run lint` - run eslint
 7. `npm run fix` - run eslint with `--fix` flag
 
